@@ -17,4 +17,4 @@ as well.
 
 For the master branch, run Puppet as
 
-    sudo /opt/puppetlabs/bin/puppet apply  --environment=savm /etc/puppetlabs/code/environments/savm/manifests 
+    sudo /opt/puppetlabs/bin/puppet apply  --environment=puppetdev /etc/puppetlabs/code/environments/puppetdev/manifests 
