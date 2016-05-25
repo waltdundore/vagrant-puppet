@@ -6,26 +6,17 @@ Vagrant.configure(2) do |config|
     v.memory = 1024
     v.cpus = 2
     v.customize ["modifyvm", :id, "--ioapic", "on"]
-#     v.gui = true
   end
 
   config.ssh.forward_agent = 'true'
 
-#   if Vagrant.has_plugin?("vagrant-cachier")
-#     # More info on http://fgrehm.viewdocs.io/vagrant-cachier/usage
-#     config.cache.scope = :machine
-#     config.cache.enable :yum
-#   end
-
   config.vm.network :private_network, type: 'dhcp'
   if Vagrant.has_plugin?('landrush')
     config.landrush.enabled = true
-#    config.landrush.tld = ['vm.apidb.org', 'vm.toxodb.org']
-    config.landrush.tld = 'vm.apidb.org'
+    config.landrush.tld = ['pup.apidb.org', 'pup.toxodb.org']
   end
  
-#  config.vm.hostname = 'sa.vm.apidb.org'
-  config.vm.hostname = 'vm.apidb.org'
+  config.vm.hostname = 'pup.apidb.org'
 
   if 1 == 1
     config.vm.provision :puppet do |puppet|
