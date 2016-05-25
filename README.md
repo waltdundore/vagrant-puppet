@@ -1,10 +1,20 @@
 
-Setup
+### Setup
 
     cd scratch/
     git clone git@git.apidb.org:puppet4.git puppetlabs
 
 
+### Install Landrush Plugin (optional)
+
+
+    git clone https://github.com/mheiges/landrush.git
+    cd landrush
+    rake build
+    vagrant plugin install pkg/landrush-0.18.0.gem
+
+
+### Usage
 
 See `git branch` of the vagrant project for alternate vagrant
 configurations supporting development of specific puppet roles/profiles.
@@ -17,4 +27,4 @@ as well.
 
 For the master branch, run Puppet as
 
-    sudo /opt/puppetlabs/bin/puppet apply  --environment=puppetdev /etc/puppetlabs/code/environments/puppetdev/manifests 
+    sudo /opt/puppetlabs/bin/puppet apply  --environment=puppetwebdev /etc/puppetlabs/code/environments/puppetwebdev/manifests
