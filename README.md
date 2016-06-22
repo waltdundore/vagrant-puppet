@@ -14,6 +14,11 @@
     vagrant plugin install pkg/landrush-0.18.0.gem
 
 
+### Oracle install slow connection
+    uncomment dbdl.sh script in Vagrant file
+    This will let you put the install file in scratch(or download if missing)
+
+
 ### Usage
 
 See `git branch` of the vagrant project for alternate vagrant
