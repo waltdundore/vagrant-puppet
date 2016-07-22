@@ -3,7 +3,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ebrc/centos-7-64-puppet"
 
   config.vm.provider "virtualbox" do |v|
-    v.memory = 1024
+    v.memory = 2048
     v.cpus = 2
     v.customize ["modifyvm", :id, "--ioapic", "on"]
   end
@@ -17,6 +17,8 @@ Vagrant.configure(2) do |config|
   end
  
   config.vm.hostname = 'pup.apidb.org'
+
+  config.vm.provision "shell", path: "addswap.sh"
 
   if 1 == 1
     config.vm.provision :puppet do |puppet|
