@@ -1,9 +1,16 @@
 #!/bin/bash
 
-dd if=/dev/zero of=/swap bs=1M count=512
+SWAPFILE='/swap'
 
-mkswap /swap
+if grep -q "${SWAPFILE}\b" /proc/swaps; then
+  echo 'swap exists, skipping addswap'
+  exit 0
+fi
 
-chmod 0600 /swap
+dd if=/dev/zero of="${SWAPFILE}" bs=1M count=512
 
-swapon /swap
+mkswap "${SWAPFILE}"
+
+chmod 0600 "${SWAPFILE}"
+
+swapon "${SWAPFILE}"
