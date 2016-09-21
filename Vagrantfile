@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", path: "addswap.sh"
 
-  if 1 == 1
+  if 1 == 0
     config.vm.provision :puppet do |puppet|
       #puppet.options = '--verbose --debug'
       #puppet.binary_path = '/opt/puppetlabs/bin'
