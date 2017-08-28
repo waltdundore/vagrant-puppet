@@ -1,5 +1,6 @@
 Vagrant.configure(2) do |config|
 
+  config.vm.box_url = 'http://software.apidb.org/vagrant/centos-7-64-puppet.json'
   config.vm.box = "ebrc/centos-7-64-puppet"
 
   config.vm.provider "virtualbox" do |v|
