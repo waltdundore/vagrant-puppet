@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   config.vm.network :private_network, type: 'dhcp'
   if Vagrant.has_plugin?('landrush')
     config.landrush.enabled = true
-    config.landrush.tld = ['pup.apidb.org', 'pup.toxodb.org']
+    config.landrush.tld = 'pup.apidb.org'
   end
  
   config.vm.hostname = 'pup.apidb.org'
@@ -39,6 +39,6 @@ Vagrant.configure(2) do |config|
   config.vm.synced_folder "scratch/puppetlabs/code/", "/etc/puppetlabs/code/", owner: "root", group: "root" 
 
   # cp oracle.tgz from scratch to /u01. Will be downloaded if not there
-  config.vm.provision "shell", path: "dbdl.sh"
+  #config.vm.provision "shell", path: "dbdl.sh"
 
 end
