@@ -4,7 +4,7 @@
 #If the file isn't in scratch this script will download it to scratch
 ###
 ###file name for the oracle install .tgz###
-ORA_VER="11.2.0.3_database.tgz"
+ORA_VER="11.2.0.4_database.tgz"
 ###########################################
 if [ ! -d /u01 ];
 then
