@@ -38,6 +38,7 @@ Vagrant.configure(2) do |config|
   # setup puppet structure
   # config.vm.synced_folder "scratch/puppetlabs/code/", "/etc/puppetlabs/code/", type: 'nfs'
   config.vm.synced_folder "scratch/code/", "/etc/puppetlabs/code/", owner: "root", group: "root"
+  config.vm.synced_folder "r10k/", "/etc/puppetlabs/r10k/", owner: "root", group: "root"
 
   # cp oracle.tgz from scratch to /u01. Will be downloaded if not there
   #config.vm.provision "shell", path: "dbdl.sh"
