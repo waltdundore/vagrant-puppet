@@ -2,8 +2,8 @@
 
 # Install r10k
 yum install ruby git -y
-gem install rdoc -v 4.2.2 # fixes annoying doc encoding error
-gem install r10k -v 2.6.2
+/opt/puppetlabs/puppet/bin/gem install multipart-post -v 2.2.0
+/opt/puppetlabs/puppet/bin/gem install r10k -v 2.6.2
 
 # r10k not in path by default
 if ! grep -q "export PATH=" /root/.bashrc; then
