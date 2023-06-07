@@ -6,20 +6,9 @@
     cd puppet-control
     git checkout savm
 
-
-### Install Landrush Plugin (optional)
-
-
-    git clone https://github.com/mheiges/landrush.git
-    cd landrush
-    rake build
-    vagrant plugin install pkg/landrush-0.18.0.gem
-
-
 ### Oracle install slow connection
     uncomment dbdl.sh script in Vagrant file
     This will let you put the install file in scratch(or download if missing)
-
 
 ### Usage
 
