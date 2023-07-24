@@ -18,6 +18,8 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "r10k.sh"
   # cp oracle.tgz from scratch to /u01. Will be downloaded if not there
   #config.vm.provision "shell", path: "dbdl.sh"
+  config.vm.provision "shell", path: "scratch/set_locale.sh"
+  config.vm.provision "shell", path: "bootstrap.sh"
 
   # Setup puppet structure
   config.vm.synced_folder "scratch/code/", "/etc/puppetlabs/code/", owner: "root", group: "root"
