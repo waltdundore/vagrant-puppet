@@ -22,8 +22,8 @@ Vagrant.configure(2) do |config|
   end
 
   #modify the default port 
-  config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 2112
-  config.ssh.port = 2112
+  config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 2222
+  config.ssh.port = 2222
 
 
  
