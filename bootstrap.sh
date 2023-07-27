@@ -14,17 +14,29 @@ fi
 echo "**************Connect the vpn****************"
 
 
-echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers
-systemctl restart sshd
+#fix ssh auth
+if [[ if echo /etc/sudoers | grep -q "Defaults    env_keep+=SSH_AUTH_SOCK" ]] 
+then
+  echo "ssh auth already modified, skipping" 1>&2
+else
+  echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers
+  systemctl restart sshd
+fi
 
+#set up ssh config
+if [[ if echo /root/.ssh/config | grep -q "Host *.apidb.org" ]] 
+then
+  echo "ssh config already modified, skipping" 1>&2
+else
 mkdir -p /root/.ssh/ && \
 cat << 'EOF' >> /root/.ssh/config
 Host *.apidb.org
     Port 2112
 EOF
+fi
+
 
 ssh-keyscan -p 2112 git.apidb.org > /root/.ssh/known_hosts
-
 chmod 0600 /root/.ssh/*
 
 
