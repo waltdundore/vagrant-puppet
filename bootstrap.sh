@@ -47,3 +47,4 @@ yum -y install puppet-agent
 export PATH=/opt/puppetlabs/bin:$PATH
 #/opt/puppetlabs/bin/puppet resource service puppet ensure=running enable=true
 
+
