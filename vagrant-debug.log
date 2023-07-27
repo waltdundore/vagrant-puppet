@@ -1,0 +1,1589 @@
+ INFO global: Vagrant version: 2.3.7
+ INFO global: Ruby version: 3.1.4
+ INFO global: RubyGems version: 3.3.26
+ INFO global: VAGRANT_INSTALLER_VERSION="2"
+ INFO global: VAGRANT_INSTALLER_ENV="1"
+ INFO global: VAGRANT_INSTALLER_EMBEDDED_DIR="/opt/vagrant/embedded"
+ INFO global: VAGRANT_EXECUTABLE="/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/bin/vagrant"
+ INFO global: VAGRANT_LOG="debug"
+ WARN global: resolv replacement has not been enabled!
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/autocomplete/plugin.rb
+ INFO manager: Registered plugin: autocomplete command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/box/plugin.rb
+ INFO manager: Registered plugin: box command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/cap/plugin.rb
+ INFO manager: Registered plugin: cap command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/cloud/plugin.rb
+ INFO manager: Registered plugin: vagrant-cloud
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/destroy/plugin.rb
+ INFO manager: Registered plugin: destroy command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/global-status/plugin.rb
+ INFO manager: Registered plugin: global-status command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/halt/plugin.rb
+ INFO manager: Registered plugin: halt command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/help/plugin.rb
+ INFO manager: Registered plugin: help command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/init/plugin.rb
+ INFO manager: Registered plugin: init command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/list-commands/plugin.rb
+ INFO manager: Registered plugin: list-commands command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/login/plugin.rb
+ INFO manager: Registered plugin: vagrant-login
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/package/plugin.rb
+ INFO manager: Registered plugin: package command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/plugin/plugin.rb
+ INFO manager: Registered plugin: plugin command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/port/plugin.rb
+ INFO manager: Registered plugin: port command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/powershell/plugin.rb
+ INFO manager: Registered plugin: powershell command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/provider/plugin.rb
+ INFO manager: Registered plugin: provider command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/provision/plugin.rb
+ INFO manager: Registered plugin: provision command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/push/plugin.rb
+ INFO manager: Registered plugin: push command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/rdp/plugin.rb
+ INFO manager: Registered plugin: rdp command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/reload/plugin.rb
+ INFO manager: Registered plugin: reload command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/resume/plugin.rb
+ INFO manager: Registered plugin: resume command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/serve/plugin.rb
+ INFO manager: Registered plugin: start Vagrant server
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/snapshot/plugin.rb
+ INFO manager: Registered plugin: snapshot command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/ssh_config/plugin.rb
+ INFO manager: Registered plugin: ssh-config command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/status/plugin.rb
+ INFO manager: Registered plugin: status command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/suspend/plugin.rb
+ INFO manager: Registered plugin: suspend command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/up/plugin.rb
+ INFO manager: Registered plugin: up command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/upload/plugin.rb
+ INFO manager: Registered plugin: upload command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/validate/plugin.rb
+ INFO manager: Registered plugin: validate command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/version/plugin.rb
+ INFO manager: Registered plugin: version command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/commands/winrm_config/plugin.rb
+ INFO manager: Registered plugin: winrm-config command
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/communicators/ssh/plugin.rb
+ INFO manager: Registered plugin: ssh communicator
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/communicators/winrm/plugin.rb
+ INFO manager: Registered plugin: winrm communicator
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/communicators/winssh/plugin.rb
+ INFO manager: Registered plugin: windows ssh communicator
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/alma/plugin.rb
+ INFO manager: Registered plugin: Alma guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/alpine/plugin.rb
+ INFO manager: Registered plugin: Alpine guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/amazon/plugin.rb
+ INFO manager: Registered plugin: Amazon Linux guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/arch/plugin.rb
+ INFO manager: Registered plugin: Arch guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/atomic/plugin.rb
+ INFO manager: Registered plugin: Atomic Host guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD-based guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/centos/plugin.rb
+ INFO manager: Registered plugin: CentOS guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/coreos/plugin.rb
+ INFO manager: Registered plugin: CoreOS guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/darwin/plugin.rb
+ INFO manager: Registered plugin: Darwin guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/debian/plugin.rb
+ INFO manager: Registered plugin: Debian guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/dragonflybsd/plugin.rb
+ INFO manager: Registered plugin: DragonFly BSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/elementary/plugin.rb
+ INFO manager: Registered plugin: Elementary guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/esxi/plugin.rb
+ INFO manager: Registered plugin: ESXi guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/fedora/plugin.rb
+ INFO manager: Registered plugin: Fedora guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/funtoo/plugin.rb
+ INFO manager: Registered plugin: Funtoo guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/haiku/plugin.rb
+ INFO manager: Registered plugin: Haiku guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/kali/plugin.rb
+ INFO manager: Registered plugin: Kali guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/linux/plugin.rb
+ INFO manager: Registered plugin: Linux guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/mint/plugin.rb
+ INFO manager: Registered plugin: Mint guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/netbsd/plugin.rb
+ INFO manager: Registered plugin: NetBSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/nixos/plugin.rb
+ INFO manager: Registered plugin: NixOS guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/omnios/plugin.rb
+ INFO manager: Registered plugin: OmniOS guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/openbsd/plugin.rb
+ INFO manager: Registered plugin: OpenBSD guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/openwrt/plugin.rb
+ INFO manager: Registered plugin: OpenWrt guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/photon/plugin.rb
+ INFO manager: Registered plugin: VMware Photon guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/pld/plugin.rb
+ INFO manager: Registered plugin: PLD Linux guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/rocky/plugin.rb
+ INFO manager: Registered plugin: Rocky guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/smartos/plugin.rb
+ INFO manager: Registered plugin: SmartOS guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/solaris/plugin.rb
+ INFO manager: Registered plugin: Solaris guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/solaris11/plugin.rb
+ INFO manager: Registered plugin: Solaris 11 guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/tinycore/plugin.rb
+ INFO manager: Registered plugin: TinyCore Linux guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/trisquel/plugin.rb
+ INFO manager: Registered plugin: Trisquel guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/ubuntu/plugin.rb
+ INFO manager: Registered plugin: Ubuntu guest
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/guests/windows/plugin.rb
+ INFO manager: Registered plugin: Windows guest.
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/alt/plugin.rb
+ INFO manager: Registered plugin: ALT Platform host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/arch/plugin.rb
+ INFO manager: Registered plugin: Arch host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/bsd/plugin.rb
+ INFO manager: Registered plugin: BSD host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/darwin/plugin.rb
+ INFO manager: Registered plugin: Mac OS X host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/freebsd/plugin.rb
+ INFO manager: Registered plugin: FreeBSD host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/gentoo/plugin.rb
+ INFO manager: Registered plugin: Gentoo host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/linux/plugin.rb
+ INFO manager: Registered plugin: Linux host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/null/plugin.rb
+ INFO manager: Registered plugin: null host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/redhat/plugin.rb
+ INFO manager: Registered plugin: Red Hat Enterprise Linux host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/slackware/plugin.rb
+ INFO manager: Registered plugin: Slackware host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/suse/plugin.rb
+ INFO manager: Registered plugin: SUSE host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/void/plugin.rb
+ INFO manager: Registered plugin: Void host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/hosts/windows/plugin.rb
+ INFO manager: Registered plugin: Windows host
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/kernel_v1/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/kernel_v2/plugin.rb
+ INFO manager: Registered plugin: kernel
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb
+ INFO manager: Registered plugin: docker-provider
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb
+ INFO manager: Registered plugin: Hyper-V provider
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb
+ INFO manager: Registered plugin: VirtualBox provider
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/ansible/plugin.rb
+ INFO manager: Registered plugin: ansible
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/cfengine/plugin.rb
+ INFO manager: Registered plugin: CFEngine Provisioner
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/chef/plugin.rb
+ INFO manager: Registered plugin: chef
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/container/plugin.rb
+ INFO manager: Registered plugin: container
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/docker/plugin.rb
+ INFO manager: Registered plugin: docker
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/file/plugin.rb
+ INFO manager: Registered plugin: file
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/podman/plugin.rb
+ INFO manager: Registered plugin: podman
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/puppet/plugin.rb
+ INFO manager: Registered plugin: puppet
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/salt/plugin.rb
+ INFO manager: Registered plugin: salt
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/provisioners/shell/plugin.rb
+ INFO manager: Registered plugin: shell
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/pushes/atlas/plugin.rb
+ INFO manager: Registered plugin: atlas
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/pushes/ftp/plugin.rb
+ INFO manager: Registered plugin: ftp
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/pushes/heroku/plugin.rb
+ INFO manager: Registered plugin: heroku
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/pushes/local-exec/plugin.rb
+ INFO manager: Registered plugin: local-exec
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/pushes/noop/plugin.rb
+ INFO manager: Registered plugin: noop
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/synced_folders/nfs/plugin.rb
+ INFO manager: Registered plugin: NFS synced folders
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/synced_folders/rsync/plugin.rb
+ INFO manager: Registered plugin: RSync synced folders
+DEBUG global: Loading core plugin: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/synced_folders/smb/plugin.rb
+ INFO manager: Registered plugin: SMB synced folders
+ INFO vagrant: `vagrant` invoked: ["up", "--debug"]
+DEBUG vagrant: Creating Vagrant environment
+ INFO environment: Environment initialized (#<Vagrant::Environment:0x00007f8ca1cf6b80>)
+ INFO environment:   - cwd: /home/wdundore/git/uga/vagrant-puppet
+ INFO environment: Home path: /home/wdundore/.vagrant.d
+DEBUG environment: Effective local data path: /home/wdundore/git/uga/vagrant-puppet/.vagrant
+ INFO environment: Local data path: /home/wdundore/git/uga/vagrant-puppet/.vagrant
+DEBUG environment: Creating: /home/wdundore/git/uga/vagrant-puppet/.vagrant
+DEBUG manager: Enabling localized plugins
+ INFO manager: Plugins:
+DEBUG solution_file: new solution file instance plugin_file=/home/wdundore/git/uga/vagrant-puppet/.vagrant/plugins.json solution_file=/home/wdundore/git/uga/vagrant-puppet/.vagrant/bundler/local.sol
+DEBUG solution_file: missing file so skipping loading
+DEBUG bundler: solution file in use for init: <Vagrant::Bundler::SolutionFile:/home/wdundore/git/uga/vagrant-puppet/.vagrant/plugins.json:/home/wdundore/git/uga/vagrant-puppet/.vagrant/bundler/local.sol:invalid>
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: generating solution set for configured plugins
+DEBUG bundler: Current generated plugin dependency list: []
+DEBUG bundler: resolving solution from available specification set
+DEBUG bundler: solution set for configured plugins has been resolved
+DEBUG bundler: activating solution set
+DEBUG bundler: Activating solution set: []
+DEBUG solution_file: plugin file does not exist, not storing solution
+DEBUG bundler: solution set stored to - <Vagrant::Bundler::SolutionFile:/home/wdundore/git/uga/vagrant-puppet/.vagrant/plugins.json:/home/wdundore/git/uga/vagrant-puppet/.vagrant/bundler/local.sol:invalid>
+ INFO manager: Loading plugins...
+DEBUG manager: Enabling globalized plugins
+ INFO manager: Plugins:
+ INFO manager:   - vagrant-libvirt = [installed: 0.12.2 constraint: > 0]
+ INFO manager:   - vagrant-mutate = [installed: 1.2.0 constraint: > 0]
+DEBUG solution_file: new solution file instance plugin_file=/home/wdundore/.vagrant.d/plugins.json solution_file=/home/wdundore/git/uga/vagrant-puppet/.vagrant/bundler/global.sol
+DEBUG solution_file: reading solution file - /home/wdundore/git/uga/vagrant-puppet/.vagrant/bundler/global.sol
+DEBUG solution_file: solution validation check CHECKSUM a611a6280e6cdf140c4f97f23c307c783570b600cf01f57d391a9e4d928e96f0 <-> a611a6280e6cdf140c4f97f23c307c783570b600cf01f57d391a9e4d928e96f0 VERSION 2.3.7 <-> 2.3.7
+DEBUG solution_file: loading solution dependency list
+DEBUG solution_file: solution dependency list: [#<Gem::Resolver::DependencyRequest:0x00007f8ca210d930 @dependency=<Gem::Dependency type=:runtime name="racc" requirements="~> 1.4">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2113920 @dependency=<Gem::Dependency type=:runtime name="nokogiri" requirements="~> 1.6">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2112b88 @dependency=<Gem::Dependency type=:runtime name="diffy" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca21126d8 @dependency=<Gem::Dependency type=:runtime name="rexml" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca21121b0 @dependency=<Gem::Dependency type=:runtime name="xml-simple" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2117908 @dependency=<Gem::Dependency type=:runtime name="formatador" requirements=">= 0.2, < 2.0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2116c38 @dependency=<Gem::Dependency type=:runtime name="excon" requirements="~> 0.71">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca21195a0 @dependency=<Gem::Dependency type=:runtime name="mime-types-data" requirements="~> 3.2015">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2118e70 @dependency=<Gem::Dependency type=:runtime name="mime-types" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2118970 @dependency=<Gem::Dependency type=:runtime name="builder" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2118538 @dependency=<Gem::Dependency type=:runtime name="fog-core" requirements="~> 2">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca211fc70 @dependency=<Gem::Dependency type=:runtime name="json" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca211df10 @dependency=<Gem::Dependency type=:runtime name="ruby-libvirt" requirements=">= 0.7.0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca211d178 @dependency=<Gem::Dependency type=:runtime name="fog-xml" requirements="~> 0.1.1">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca211c868 @dependency=<Gem::Dependency type=:runtime name="multi_json" requirements="~> 1.10">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca21222e0 @dependency=<Gem::Dependency type=:runtime name="fog-json" requirements=">= 0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2121b38 @dependency=<Gem::Dependency type=:runtime name="fog-libvirt" requirements=">= 0.6.0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2120cd8 @dependency=<Gem::Dependency type=:runtime name="vagrant-libvirt" requirements="= 0.12.2">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00007f8ca2120760 @dependency=<Gem::Dependency type=:runtime name="vagrant-mutate" requirements="= 1.2.0">, @requester=nil>]
+DEBUG bundler: solution file in use for init: <Vagrant::Bundler::SolutionFile:/home/wdundore/.vagrant.d/plugins.json:/home/wdundore/git/uga/vagrant-puppet/.vagrant/bundler/global.sol:valid>
+DEBUG bundler: Generating new builtin set instance.
+DEBUG bundler: Generating new plugin set instance. Skip gems - []
+DEBUG bundler: loading cached solution set
+DEBUG bundler: activating solution set
+DEBUG bundler: Activating solution set: ["racc-1.6.0", "nokogiri-1.15.3-x86_64-linux", "diffy-3.4.2", "rexml-3.2.5", "xml-simple-1.1.9", "formatador-1.1.0", "excon-0.100.0", "mime-types-data-3.2023.0218.1", "mime-types-3.4.1", "builder-3.2.4", "fog-core-2.3.0", "json-2.6.1", "ruby-libvirt-0.8.0", "fog-xml-0.1.4", "multi_json-1.15.0", "fog-json-1.2.0", "fog-libvirt-0.11.0", "vagrant-libvirt-0.12.2", "vagrant-mutate-1.2.0"]
+DEBUG bundler: Activating gem racc-1.6.0
+DEBUG bundler: Activating gem nokogiri-1.15.3-x86_64-linux
+DEBUG bundler: Activating gem diffy-3.4.2
+DEBUG bundler: Activating gem xml-simple-1.1.9
+DEBUG bundler: Activating gem formatador-1.1.0
+DEBUG bundler: Activating gem fog-core-2.3.0
+DEBUG bundler: Activating gem json-2.6.1
+DEBUG bundler: Activating gem ruby-libvirt-0.8.0
+DEBUG bundler: Activating gem fog-xml-0.1.4
+DEBUG bundler: Activating gem fog-json-1.2.0
+DEBUG bundler: Activating gem fog-libvirt-0.11.0
+DEBUG bundler: Activating gem vagrant-libvirt-0.12.2
+DEBUG bundler: Activating gem vagrant-mutate-1.2.0
+ INFO manager: Loading plugins...
+ INFO manager: Loading plugin `vagrant-libvirt` with default require: `vagrant-libvirt`
+ INFO manager: Registered plugin: libvirt
+DEBUG manager: Successfully loaded plugin `vagrant-libvirt`.
+ INFO manager: Loading plugin `vagrant-mutate` with default require: `vagrant-mutate`
+ INFO manager: Registered plugin: vagrant-mutate
+DEBUG manager: Successfully loaded plugin `vagrant-mutate`.
+ INFO loader: Set :root = ["#<Pathname:/home/wdundore/git/uga/vagrant-puppet/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:/home/wdundore/git/uga/vagrant-puppet/Vagrantfile>
+DEBUG loader: Load procs for pathname: /home/wdundore/git/uga/vagrant-puppet/Vagrantfile
+ INFO loader: Loading configuration in order: [:home, :root]
+DEBUG loader: Loading from: root (evaluating)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :libvirt gave us base class: VagrantPlugins::ProviderLibvirt::Config
+DEBUG environment: Default provider: `libvirt`
+DEBUG environment: Using forced default provider: `libvirt`
+ INFO loader: Set "900_machine_libvirt_vm" = ["[\"2\", #<Proc:0x00007f8c90d57bd0 /home/wdundore/git/uga/vagrant-puppet/Vagrantfile:16>]"]
+DEBUG loader: Populating proc cache for ["2", #<Proc:0x00007f8c90d57bd0 /home/wdundore/git/uga/vagrant-puppet/Vagrantfile:16>]
+ INFO loader: Loading configuration in order: [:home, :root, "900_machine_libvirt_vm"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 900_machine_libvirt_vm (evaluating)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :libvirt gave us base class: VagrantPlugins::ProviderLibvirt::Config
+ INFO box_collection: Box found: ebrc/centos-7-64-puppet (libvirt)
+ INFO environment: Running hook: authenticate_box_url
+ INFO host: Autodetecting host type for [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>]
+DEBUG host: Trying: alt
+DEBUG host: Trying: arch
+DEBUG host: Trying: darwin
+DEBUG host: Trying: freebsd
+DEBUG host: Trying: gentoo
+DEBUG host: Trying: redhat
+ INFO host: Detected: redhat!
+ INFO runner: Running action: authenticate_box_url #<Vagrant::Action::Builder:0x00007f8c90c26fb8>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddAuthentication:0x00007f8c90996a78>
+ WARN authenticate-box-url: Authentication token not found as GET parameter.
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddAuthentication:0x00007f8c90996a78>
+ INFO loader: Set :"1100_ebrc/centos-7-64-puppet_libvirt" = ["#<Pathname:/home/wdundore/.vagrant.d/boxes/ebrc-VAGRANTSLASH-centos-7-64-puppet/20170316/libvirt/Vagrantfile>"]
+DEBUG loader: Populating proc cache for #<Pathname:/home/wdundore/.vagrant.d/boxes/ebrc-VAGRANTSLASH-centos-7-64-puppet/20170316/libvirt/Vagrantfile>
+DEBUG loader: Load procs for pathname: /home/wdundore/.vagrant.d/boxes/ebrc-VAGRANTSLASH-centos-7-64-puppet/20170316/libvirt/Vagrantfile
+ INFO loader: Loading configuration in order: [:"1100_ebrc/centos-7-64-puppet_libvirt", :home, :root, "900_machine_libvirt_vm"]
+DEBUG loader: Loading from: 1100_ebrc/centos-7-64-puppet_libvirt (evaluating)
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 900_machine_libvirt_vm (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :libvirt gave us base class: VagrantPlugins::ProviderLibvirt::Config
+ INFO environment: Running hook: environment_plugins_loaded
+ INFO runner: Running action: environment_plugins_loaded #<Vagrant::Action::Builder:0x00007f8c909b3dd0>
+ INFO environment: Running hook: environment_load
+ INFO runner: Running action: environment_load #<Vagrant::Action::Builder:0x00007f8ca20b0550>
+DEBUG checkpoint_client: starting plugin check
+ INFO cli: CLI: [] "up" []
+DEBUG checkpoint_client: plugin check complete
+DEBUG cli: Invoking command class: VagrantPlugins::CommandUp::Command []
+DEBUG checkpoint_client: no information received from checkpoint
+DEBUG command: 'Up' each target VM...
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["libvirt_vm"]
+DEBUG command:  -- options: {:provider=>nil}
+DEBUG command: Finding machine that match name: libvirt_vm
+DEBUG environment: Default provider: `libvirt`
+DEBUG environment: Using forced default provider: `libvirt`
+ INFO environment: Getting machine: libvirt_vm (libvirt)
+ INFO environment: Uncached load of machine.
+ INFO loader: Set "900_machine_libvirt_vm" = ["[\"2\", #<Proc:0x00007f8c90d57bd0 /home/wdundore/git/uga/vagrant-puppet/Vagrantfile:16>]"]
+ INFO loader: Loading configuration in order: [:home, :root, "900_machine_libvirt_vm"]
+ WARN loader: Unknown config sources: [:"1100_ebrc/centos-7-64-puppet_libvirt"]
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 900_machine_libvirt_vm (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :libvirt gave us base class: VagrantPlugins::ProviderLibvirt::Config
+ INFO box_collection: Box found: ebrc/centos-7-64-puppet (libvirt)
+ INFO environment: Running hook: authenticate_box_url
+ INFO runner: Running action: authenticate_box_url #<Vagrant::Action::Builder:0x00007f8ca24b5bc8>
+ INFO warden: Calling IN action: #<VagrantPlugins::CloudCommand::AddAuthentication:0x00007f8ca1cc1318>
+ WARN authenticate-box-url: Authentication token not found as GET parameter.
+ INFO warden: Calling OUT action: #<VagrantPlugins::CloudCommand::AddAuthentication:0x00007f8ca1cc1318>
+ INFO loader: Set :"1100_ebrc/centos-7-64-puppet_libvirt" = ["#<Pathname:/home/wdundore/.vagrant.d/boxes/ebrc-VAGRANTSLASH-centos-7-64-puppet/20170316/libvirt/Vagrantfile>"]
+ INFO loader: Loading configuration in order: [:"1100_ebrc/centos-7-64-puppet_libvirt", :home, :root, "900_machine_libvirt_vm"]
+DEBUG loader: Loading from: 1100_ebrc/centos-7-64-puppet_libvirt (cache)
+DEBUG loader: Loading from: root (cache)
+DEBUG loader: Loading from: 900_machine_libvirt_vm (cache)
+DEBUG loader: Configuration loaded successfully, finalizing and returning
+DEBUG push: finalizing
+ INFO vmconfig: config class lookup for provider :libvirt gave us base class: VagrantPlugins::ProviderLibvirt::Config
+ INFO vmconfig: looking up provider config for: :libvirt
+ INFO vmconfig: provider config value that was stored: #<VagrantPlugins::ProviderLibvirt::Config:0x00007f8ca219ea98 @logger=#<Log4r::Logger:0x00007f8c909960f0 @fullname="vagrant_libvirt::config", @outputters=[], @additive=true, @name="config", @path="vagrant_libvirt", @parent=#<Log4r::Logger:0x00007f8ca1ccdb68 @fullname="vagrant_libvirt", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant_libvirt", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @uri="qemu:///system", @driver="kvm", @host="", @port=nil, @connect_via_ssh=false, @username=nil, @password=nil, @id_ssh_key_file=nil, @socket=nil, @proxy_command=nil, @forward_ssh_port=false, @storage_pool_name="default", @snapshot_pool_name="default", @random_hostname=false, @management_network_device="virbr0", @management_network_name="vagrant-libvirt", @management_network_address="192.168.121.0/24", @management_network_mode="nat", @management_network_mac=nil, @management_network_guest_ipv6="yes", @management_network_autostart=false, @management_network_pci_slot=nil, @management_network_pci_bus=nil, @management_network_domain=nil, @management_network_mtu=nil, @management_network_keep=false, @management_network_driver_iommu=false, @management_network_iface_name=nil, @management_network_model_type="virtio", @system_uri="qemu:///system", @title="", @description="", @uuid="", @memory=8192, @nodeset=nil, @memory_backing=[], @memtunes={}, @cpus=4, @cpuset=nil, @cpu_mode="host-model", @cpu_model="", @cpu_fallback="allow", @cpu_features=[], @cpu_topology={}, @cpu_affinity={}, @shares=nil, @features=["acpi", "apic", "pae"], @features_hyperv=[], @clock_absolute=nil, @clock_adjustment=nil, @clock_basis="utc", @clock_offset="utc", @clock_timezone=nil, @clock_timers=[], @launchsecurity_data=nil, @numa_nodes=nil, @loader=nil, @nvram=nil, @machine_type=nil, @machine_arch=nil, @machine_virtual_size=nil, @disk_bus="sata", @disk_device="vda", @disk_address_type=nil, @disk_controller_model=nil, @disk_driver_opts={}, @nic_model_type="virtio", @nested=false, @volume_cache=nil, @kernel=nil, @initrd=nil, @dtb=nil, @cmd_line="", @emulator_path=nil, @graphics_type="vnc", @graphics_autoport="yes", @graphics_port=-1, @graphics_websocket=-1, @graphics_ip="127.0.0.1", @graphics_passwd=nil, @graphics_gl=false, @video_type="cirrus", @video_vram=16384, @video_accel3d=false, @sound_type=nil, @keymap="en-us", @kvm_hidden=false, @tpm_model="tpm-tis", @tpm_type="passthrough", @tpm_path=nil, @tpm_version=nil, @sysinfo={}, @memballoon_enabled=nil, @memballoon_model="virtio", @memballoon_pci_bus="0x00", @memballoon_pci_slot="0x0f", @nic_adapter_count=8, @boot_order=[], @disks=[], @cdroms=[], @floppies=[], @inputs=[{:type=>"mouse", :bus=>"ps2"}], @channels=[], @pcis=[], @rng={}, @watchdog_dev={}, @usbctl_dev={}, @usbs=[], @redirdevs=[], @redirfilters=[], @smartcard_dev={}, @suspend_mode="pause", @autostart=false, @mgmt_attach=true, @qemu_args=[], @qemu_env={}, @qemu_use_session=false, @qemu_use_agent=false, @serials=[{:type=>"pty", :source=>nil}], @host_device_exclude_prefixes=["docker", "macvtap", "virbr", "vnet"], @__invalid_methods=#<Set: {}>>
+ INFO machine: Initializing machine: libvirt_vm
+ INFO machine:   - Provider: VagrantPlugins::ProviderLibvirt::Provider
+ INFO machine:   - Box: #<Vagrant::Box:0x00007f8c90da6708>
+ INFO machine:   - Data dir: /home/wdundore/git/uga/vagrant-puppet/.vagrant/machines/libvirt_vm/libvirt
+ INFO machine: New machine ID: nil
+ INFO interface: Machine: metadata ["provider", :libvirt, {:target=>:libvirt_vm}]
+ INFO command: With machine: libvirt_vm (#<VagrantPlugins::ProviderLibvirt::Provider:0x00007f8c90d84ea0 @machine=#<Vagrant::Machine: libvirt_vm (VagrantPlugins::ProviderLibvirt::Provider)>, @cap_logger=#<Log4r::Logger:0x00007f8c90d845b8 @fullname="vagrant::capability_host::vagrantplugins::providerlibvirt::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providerlibvirt", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:libvirt, #<#<Class:0x00007f8c90d84d38>:0x00007f8c90d308f0>]], @cap_args=[#<Vagrant::Machine: libvirt_vm (VagrantPlugins::ProviderLibvirt::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x00007f8c90d84a68 @items={:public_address=>#<Proc:0x00007f8ca20cd7e0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb:60>, :proxy_machine=>#<Proc:0x00007f8ca20cd6f0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb:65>, :has_communicator=>#<Proc:0x00007f8ca20cd628 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb:70>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x00007f8c90d849c8 @items={:public_address=>#<Proc:0x00007f8ca20e6e98 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:25>, :snapshot_list=>#<Proc:0x00007f8ca20e6308 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:30>, :configure_disks=>#<Proc:0x00007f8ca20e5db8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:35>, :cleanup_disks=>#<Proc:0x00007f8ca20e5d90 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:40>, :validate_disk_ext=>#<Proc:0x00007f8ca20e5d40 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:45>, :default_disk_exts=>#<Proc:0x00007f8ca20e5cf0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:50>, :set_default_disk_ext=>#<Proc:0x00007f8ca20e5cc8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:55>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x00007f8c90d84900 @items={:forwarded_ports=>#<Proc:0x00007f8ca20f8da0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x00007f8ca20f8d78 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x00007f8ca20f8d50 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:37>, :configure_disks=>#<Proc:0x00007f8ca20f8cd8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:42>, :cleanup_disks=>#<Proc:0x00007f8ca20f8c88 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:47>, :validate_disk_ext=>#<Proc:0x00007f8ca20f8c38 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:52>, :default_disk_exts=>#<Proc:0x00007f8ca20f8bc0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:57>, :set_default_disk_ext=>#<Proc:0x00007f8ca20f8b98 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:62>, :snapshot_list=>#<Proc:0x00007f8ca20f8b20 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:67>}, @results_cache={}>, :libvirt=>#<Vagrant::Registry:0x00007f8c90d84860 @items={:nic_mac_addresses=>#<Proc:0x00007f8ca1cce220 /home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/plugin.rb:43>, :public_address=>#<Proc:0x00007f8ca1cce1f8 /home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/plugin.rb:48>, :snapshot_list=>#<Proc:0x00007f8ca1cce1d0 /home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/plugin.rb:53>}, @results_cache={}>}>)
+DEBUG command: Getting target VMs for command. Arguments:
+DEBUG command:  -- names: ["libvirt_vm"]
+DEBUG command:  -- options: {:provider=>nil}
+DEBUG command: Finding machine that match name: libvirt_vm
+DEBUG environment: Default provider: `libvirt`
+DEBUG environment: Using forced default provider: `libvirt`
+ INFO environment: Getting machine: libvirt_vm (libvirt)
+ INFO environment: Returning cached machine: libvirt_vm (libvirt)
+ INFO command: With machine: libvirt_vm (#<VagrantPlugins::ProviderLibvirt::Provider:0x00007f8c90d84ea0 @machine=#<Vagrant::Machine: libvirt_vm (VagrantPlugins::ProviderLibvirt::Provider)>, @cap_logger=#<Log4r::Logger:0x00007f8c90d845b8 @fullname="vagrant::capability_host::vagrantplugins::providerlibvirt::provider", @outputters=[], @additive=true, @name="provider", @path="vagrant::capability_host::vagrantplugins::providerlibvirt", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @cap_host_chain=[[:libvirt, #<#<Class:0x00007f8c90d84d38>:0x00007f8c90d308f0>]], @cap_args=[#<Vagrant::Machine: libvirt_vm (VagrantPlugins::ProviderLibvirt::Provider)>], @cap_caps={:docker=>#<Vagrant::Registry:0x00007f8c90d84a68 @items={:public_address=>#<Proc:0x00007f8ca20cd7e0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb:60>, :proxy_machine=>#<Proc:0x00007f8ca20cd6f0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb:65>, :has_communicator=>#<Proc:0x00007f8ca20cd628 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/docker/plugin.rb:70>}, @results_cache={}>, :hyperv=>#<Vagrant::Registry:0x00007f8c90d849c8 @items={:public_address=>#<Proc:0x00007f8ca20e6e98 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:25>, :snapshot_list=>#<Proc:0x00007f8ca20e6308 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:30>, :configure_disks=>#<Proc:0x00007f8ca20e5db8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:35>, :cleanup_disks=>#<Proc:0x00007f8ca20e5d90 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:40>, :validate_disk_ext=>#<Proc:0x00007f8ca20e5d40 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:45>, :default_disk_exts=>#<Proc:0x00007f8ca20e5cf0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:50>, :set_default_disk_ext=>#<Proc:0x00007f8ca20e5cc8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/hyperv/plugin.rb:55>}, @results_cache={}>, :virtualbox=>#<Vagrant::Registry:0x00007f8c90d84900 @items={:forwarded_ports=>#<Proc:0x00007f8ca20f8da0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:27>, :nic_mac_addresses=>#<Proc:0x00007f8ca20f8d78 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:32>, :public_address=>#<Proc:0x00007f8ca20f8d50 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:37>, :configure_disks=>#<Proc:0x00007f8ca20f8cd8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:42>, :cleanup_disks=>#<Proc:0x00007f8ca20f8c88 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:47>, :validate_disk_ext=>#<Proc:0x00007f8ca20f8c38 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:52>, :default_disk_exts=>#<Proc:0x00007f8ca20f8bc0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:57>, :set_default_disk_ext=>#<Proc:0x00007f8ca20f8b98 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:62>, :snapshot_list=>#<Proc:0x00007f8ca20f8b20 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/providers/virtualbox/plugin.rb:67>}, @results_cache={}>, :libvirt=>#<Vagrant::Registry:0x00007f8c90d84860 @items={:nic_mac_addresses=>#<Proc:0x00007f8ca1cce220 /home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/plugin.rb:43>, :public_address=>#<Proc:0x00007f8ca1cce1f8 /home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/plugin.rb:48>, :snapshot_list=>#<Proc:0x00007f8ca1cce1d0 /home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/plugin.rb:53>}, @results_cache={}>}>)
+ INFO interface: info: Bringing machine 'libvirt_vm' up with 'libvirt' provider...
+Bringing machine 'libvirt_vm' up with 'libvirt' provider...
+ INFO batch_action: Enabling parallelization by default.
+ INFO batch_action: Disabling parallelization because only executing one action
+ INFO batch_action: Batch action will parallelize: false
+ INFO batch_action: Starting action: #<Vagrant::Machine:0x00007f8ca1c66350> up {:destroy_on_error=>true, :install_provider=>false, :parallel=>true, :provision_ignore_sentinel=>false, :provision_types=>nil}
+ INFO machine: Calling action: up on provider Libvirt (new)
+DEBUG environment: Attempting to acquire process-lock: machine-action-77771362ce2bfa769f913f3cfaa8540a
+DEBUG environment: Attempting to acquire process-lock: dotlock
+ INFO environment: Acquired process lock: dotlock
+ INFO environment: Released process lock: dotlock
+ INFO environment: Acquired process lock: machine-action-77771362ce2bfa769f913f3cfaa8540a
+ INFO interface: Machine: action ["up", "start", {:target=>:libvirt_vm}]
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8c90c49a68>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ConfigValidate:0x00007f8ca2429b78>
+DEBUG host: Searching for cap: smb_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+ INFO host: Execute capability: nfs_installed [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>] (redhat)
+ INFO subprocess: Starting process: ["/usr/bin/ps", "-o", "comm=", "1"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO subprocess: Starting process: ["/usr/bin/systemctl", "list-units", "*nfs*server*", "--no-pager", "--no-legend"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO subprocess: Starting process: ["/bin/sh", "-c", "systemctl --no-pager --no-legend --plain list-unit-files --all --type=service | grep nfs-server.service"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+DEBUG host: Searching for cap: smb_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+ INFO host: Execute capability: nfs_installed [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>] (redhat)
+ INFO subprocess: Starting process: ["/bin/sh", "-c", "systemctl --no-pager --no-legend --plain list-unit-files --all --type=service | grep nfs-server.service"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+DEBUG syncedfolder: Searching for cap: default_fstab_modification
+DEBUG syncedfolder: Checking in: nfs
+ INFO config: Using vagrant-libvirt at 192.168.121.0/24 as the management network nat is the mode
+DEBUG config: In config found network type forwarded_port options {:id=>"ssh", :guest=>22, :host=>2112, :protocol=>"tcp"}
+DEBUG config: In config found network type private_network options {:type=>"dhcp", :ip=>"192.168.121.5", :libvirt__domain_name=>"pup.apidb.org", :protocol=>"tcp", :id=>"412a1c81-3090-412b-a668-a3fea93eb4c4"}
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::BoxCheckOutdated:0x00007f8ca24289f8>
+ INFO interface: output: Checking if box 'ebrc/centos-7-64-puppet' version '20170316' is up to date...
+ INFO interface: output: ==> libvirt_vm: Checking if box 'ebrc/centos-7-64-puppet' version '20170316' is up to date...
+==> libvirt_vm: Checking if box 'ebrc/centos-7-64-puppet' version '20170316' is up to date...
+ INFO box: box update check is under the interval threshold
+ INFO box: Skipping box update check
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x00007f8ca24c28c8>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8c90cb7ab8>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x00007f8c90c32368>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x00007f8c90c32368>
+ INFO driver: Connecting to Libvirt (qemu:///system) ...
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x00007f8c90c4a3f0>
+ INFO warden: Calling IN action: #<Proc:0x00007f8c901e1c88 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CleanupOnFailure:0x00007f8c90c494c8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Provision:0x00007f8c909ddf68>
+ INFO provision: Checking provisioner sentinel file...
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::SetNameOfDomain:0x00007f8c90988d88>
+ INFO set_name_of_domain: Looking for domain vagrant-puppet_libvirt_vm
+ INFO set_name_of_domain: Call to virDomainLookupByName failed: Domain not found: no domain with matching name 'vagrant-puppet_libvirt_vm'
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::HandleStoragePool:0x00007f8ca1df7110>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::HandleBox:0x00007f8ca1de6bd0>
+ INFO handle_box: Machine already has box. HandleBox will not run.
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::HandleBoxImage:0x00007f8ca1dd63e8>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CreateDomainVolume:0x00007f8ca1dc5b38>
+ INFO interface: info: Creating image (snapshot of base box volume).
+ INFO interface: info: ==> libvirt_vm: Creating image (snapshot of base box volume).
+==> libvirt_vm: Creating image (snapshot of base box volume).
+DEBUG create_domain_volume: Creating Volume with XML:
+<volume>
+  <name>vagrant-puppet_libvirt_vm.img</name>
+  <capacity unit="B">42949672960</capacity>
+  <target>
+    <format type="qcow2"></format>
+    <permissions>
+      <owner>0</owner>
+      <group>0</group>
+      <label>virt_image_t</label>
+    </permissions>
+    <compat>1.1</compat>
+  </target>
+  <backingStore>
+    <path>/var/lib/libvirt/images/ebrc-VAGRANTSLASH-centos-7-64-puppet_vagrant_box_image_20170316_box.img</path>
+    <format type="qcow2"></format>
+    <permissions>
+      <owner>0</owner>
+      <group>0</group>
+      <label>virt_image_t</label>
+    </permissions>
+  </backingStore>
+</volume>
+
+DEBUG create_domain_volume: Using pool default for base box snapshot
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::ResolveDiskSettings:0x00007f8ca1db50d0>
+DEBUG resolve_disk_devices: Search for volumes in pool: default
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CreateDomain:0x00007f8ca1da44b0>
+ INFO interface: info: Creating domain with the following settings...
+ INFO interface: info: ==> libvirt_vm: Creating domain with the following settings...
+==> libvirt_vm: Creating domain with the following settings...
+ INFO interface: info:  -- Name:              vagrant-puppet_libvirt_vm
+ INFO interface: info: ==> libvirt_vm:  -- Name:              vagrant-puppet_libvirt_vm
+==> libvirt_vm:  -- Name:              vagrant-puppet_libvirt_vm
+ INFO interface: info:  -- Description:       Source: /home/wdundore/git/uga/vagrant-puppet/Vagrantfile
+ INFO interface: info: ==> libvirt_vm:  -- Description:       Source: /home/wdundore/git/uga/vagrant-puppet/Vagrantfile
+==> libvirt_vm:  -- Description:       Source: /home/wdundore/git/uga/vagrant-puppet/Vagrantfile
+ INFO interface: info:  -- Domain type:       kvm
+ INFO interface: info: ==> libvirt_vm:  -- Domain type:       kvm
+==> libvirt_vm:  -- Domain type:       kvm
+ INFO interface: info:  -- Cpus:              4
+ INFO interface: info: ==> libvirt_vm:  -- Cpus:              4
+==> libvirt_vm:  -- Cpus:              4
+ INFO interface: info:  -- Feature:           acpi
+ INFO interface: info: ==> libvirt_vm:  -- Feature:           acpi
+==> libvirt_vm:  -- Feature:           acpi
+ INFO interface: info:  -- Feature:           apic
+ INFO interface: info: ==> libvirt_vm:  -- Feature:           apic
+==> libvirt_vm:  -- Feature:           apic
+ INFO interface: info:  -- Feature:           pae
+ INFO interface: info: ==> libvirt_vm:  -- Feature:           pae
+==> libvirt_vm:  -- Feature:           pae
+ INFO interface: info:  -- Clock offset:      utc
+ INFO interface: info: ==> libvirt_vm:  -- Clock offset:      utc
+==> libvirt_vm:  -- Clock offset:      utc
+ INFO interface: info:  -- Memory:            8192M
+ INFO interface: info: ==> libvirt_vm:  -- Memory:            8192M
+==> libvirt_vm:  -- Memory:            8192M
+ INFO interface: info:  -- Base box:          ebrc/centos-7-64-puppet
+ INFO interface: info: ==> libvirt_vm:  -- Base box:          ebrc/centos-7-64-puppet
+==> libvirt_vm:  -- Base box:          ebrc/centos-7-64-puppet
+ INFO interface: info:  -- Storage pool:      default
+ INFO interface: info: ==> libvirt_vm:  -- Storage pool:      default
+==> libvirt_vm:  -- Storage pool:      default
+ INFO interface: info:  -- Image(vda):        /var/lib/libvirt/images/vagrant-puppet_libvirt_vm.img, sata, 40G
+ INFO interface: info: ==> libvirt_vm:  -- Image(vda):        /var/lib/libvirt/images/vagrant-puppet_libvirt_vm.img, sata, 40G
+==> libvirt_vm:  -- Image(vda):        /var/lib/libvirt/images/vagrant-puppet_libvirt_vm.img, sata, 40G
+ INFO interface: info:  -- Disk driver opts:  cache='default'
+ INFO interface: info: ==> libvirt_vm:  -- Disk driver opts:  cache='default'
+==> libvirt_vm:  -- Disk driver opts:  cache='default'
+ INFO interface: info:  -- Graphics Type:     vnc
+ INFO interface: info: ==> libvirt_vm:  -- Graphics Type:     vnc
+==> libvirt_vm:  -- Graphics Type:     vnc
+ INFO interface: info:  -- Video Type:        cirrus
+ INFO interface: info: ==> libvirt_vm:  -- Video Type:        cirrus
+==> libvirt_vm:  -- Video Type:        cirrus
+ INFO interface: info:  -- Video VRAM:        16384
+ INFO interface: info: ==> libvirt_vm:  -- Video VRAM:        16384
+==> libvirt_vm:  -- Video VRAM:        16384
+ INFO interface: info:  -- Video 3D accel:    false
+ INFO interface: info: ==> libvirt_vm:  -- Video 3D accel:    false
+==> libvirt_vm:  -- Video 3D accel:    false
+ INFO interface: info:  -- Keymap:            en-us
+ INFO interface: info: ==> libvirt_vm:  -- Keymap:            en-us
+==> libvirt_vm:  -- Keymap:            en-us
+ INFO interface: info:  -- TPM Backend:       passthrough
+ INFO interface: info: ==> libvirt_vm:  -- TPM Backend:       passthrough
+==> libvirt_vm:  -- TPM Backend:       passthrough
+ INFO interface: info:  -- INPUT:             type=mouse, bus=ps2
+ INFO interface: info: ==> libvirt_vm:  -- INPUT:             type=mouse, bus=ps2
+==> libvirt_vm:  -- INPUT:             type=mouse, bus=ps2
+DEBUG create_domain: Creating Domain with XML:
+<domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
+  <name>vagrant-puppet_libvirt_vm</name>
+  <title></title>
+  <description>Source: /home/wdundore/git/uga/vagrant-puppet/Vagrantfile</description>
+  <uuid></uuid>
+  <memory>8388608</memory>
+  <vcpu>4</vcpu>
+  <cpu mode='host-model'>
+    <model fallback='allow'></model>
+  </cpu>
+  <os>
+    <type>hvm</type>
+    <bootmenu enable='no'/>
+    <kernel></kernel>
+    <initrd></initrd>
+    <cmdline></cmdline>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <pae/>
+  </features>
+  <clock offset='utc'>
+  </clock>
+  <devices>
+    <disk type='file' device='disk'>
+      <alias name='ua-box-volume-0'/>
+      <driver name='qemu' type='qcow2' cache='default'/>
+      <source file='/var/lib/libvirt/images/vagrant-puppet_libvirt_vm.img'/>
+      <target dev='vda' bus='sata'/>
+    </disk>
+    <serial type='pty'>
+      <target port='0'/>
+    </serial>
+    <console type='pty'>
+      <target port='0'/>
+    </console>
+    <input type='mouse' bus='ps2'>
+    </input>
+    <graphics type='vnc' port='-1' autoport='yes' websocket='-1' listen='127.0.0.1' keymap='en-us'/>
+    <video>
+      <model type='cirrus' vram='16384' heads='1'/>
+    </video>
+  </devices>
+</domain>
+
+ INFO machine: New machine ID: "f6d5a335-b08e-4f19-ab61-8001b41646ee"
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CreateNetworks:0x00007f8ca1d936b0>
+ INFO create_networks: Using vagrant-libvirt at 192.168.121.0/24 as the management network nat is the mode
+DEBUG create_networks: In config found network type forwarded_port options {:id=>"ssh", :guest=>22, :host=>2112, :protocol=>"tcp"}
+DEBUG create_networks: In config found network type private_network options {:type=>"dhcp", :ip=>"192.168.121.5", :libvirt__domain_name=>"pup.apidb.org", :protocol=>"tcp", :id=>"412a1c81-3090-412b-a668-a3fea93eb4c4"}
+DEBUG create_networks: Searching for network with options {:iface_type=>:private_network, :model_type=>"virtio", :network_name=>"vagrant-libvirt", :ip=>"192.168.121.0", :netmask=>"255.255.255.0", :dhcp_enabled=>true, :forward_mode=>"nat", :guest_ipv6=>"yes", :autostart=>false, :bus=>nil, :slot=>nil, :driver_iommu=>false, :iface_name=>nil}
+DEBUG create_networks: looking up network with ip == 192.168.121.0
+DEBUG create_networks: Checking that network name does not clash with ip
+DEBUG create_networks: looking up network named vagrant-libvirt
+DEBUG create_networks: generating name for bridge
+DEBUG create_networks: looking up bridge named virbr0
+DEBUG create_networks: found available bridge name virbr0
+DEBUG create_networks: Creating private network with XML:
+<network ipv6='yes'>
+  <name>vagrant-libvirt</name>
+  <bridge name="virbr0" stp="on" delay="0" />
+
+
+
+      <forward mode="nat" />
+
+    <ip address="192.168.121.1" netmask="255.255.255.0">
+      <dhcp>
+        <range start="192.168.121.1" end="192.168.121.254" />
+      </dhcp>
+    </ip>
+
+
+</network>
+
+DEBUG create_networks: created network
+ INFO create_networks: Saving information about created network vagrant-libvirt, UUID=e7b41977-d62c-4b04-ae9d-690adf34b3c3 to file /home/wdundore/git/uga/vagrant-puppet/.vagrant/machines/libvirt_vm/libvirt/created_networks.
+DEBUG create_networks: Searching for network with options {:iface_type=>:private_network, :netmask=>"255.255.255.0", :dhcp_enabled=>true, :forward_mode=>"nat", :always_destroy=>true, :type=>"dhcp", :ip=>"192.168.121.5", :libvirt__domain_name=>"pup.apidb.org", :protocol=>"tcp", :id=>"412a1c81-3090-412b-a668-a3fea93eb4c4", :domain_name=>"pup.apidb.org"}
+DEBUG create_networks: looking up network with ip == 192.168.121.0
+ INFO create_networks: Saving information about created network vagrant-libvirt, UUID=e7b41977-d62c-4b04-ae9d-690adf34b3c3 to file /home/wdundore/git/uga/vagrant-puppet/.vagrant/machines/libvirt_vm/libvirt/created_networks.
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CreateNetworkInterfaces:0x00007f8c90820608>
+ INFO create_network_interfaces: Using vagrant-libvirt at 192.168.121.0/24 as the management network nat is the mode
+DEBUG create_network_interfaces: In config found network type forwarded_port options {:id=>"ssh", :guest=>22, :host=>2112, :protocol=>"tcp"}
+DEBUG create_network_interfaces: In config found network type private_network options {:type=>"dhcp", :ip=>"192.168.121.5", :libvirt__domain_name=>"pup.apidb.org", :protocol=>"tcp", :id=>"412a1c81-3090-412b-a668-a3fea93eb4c4"}
+DEBUG create_network_interfaces: Adapter not specified so found slot 0
+DEBUG create_network_interfaces: Found network by name
+DEBUG create_network_interfaces: Adapter not specified so found slot 1
+DEBUG create_network_interfaces: Found network by ip
+DEBUG create_network_interfaces: Interface configuration: {:iface_type=>:private_network, :model_type=>"virtio", :network_name=>"vagrant-libvirt", :ip=>"192.168.121.0", :netmask=>"255.255.255.0", :dhcp_enabled=>true, :forward_mode=>"nat", :guest_ipv6=>"yes", :autostart=>false, :bus=>nil, :slot=>nil, :driver_iommu=>false, :iface_name=>nil}
+ INFO create_network_interfaces: Creating network interface eth0 connected to network vagrant-libvirt based on template interface.
+DEBUG create_network_interfaces: Driver options: {:iommu=>"off"}
+DEBUG create_network_interfaces: Attaching Network Device with XML:
+<interface type="network">
+  <alias name="ua-net-0"></alias>
+  <source network="vagrant-libvirt"></source>
+  <target dev="vnet0"></target>
+  <model type="virtio"></model>
+  <driver iommu="off"></driver>
+</interface>
+
+DEBUG create_network_interfaces: Interface configuration: {:iface_type=>:private_network, :netmask=>"255.255.255.0", :dhcp_enabled=>true, :forward_mode=>"nat", :always_destroy=>true, :type=>"dhcp", :ip=>"192.168.121.5", :libvirt__domain_name=>"pup.apidb.org", :protocol=>"tcp", :id=>"412a1c81-3090-412b-a668-a3fea93eb4c4", :domain_name=>"pup.apidb.org", :network_name=>"vagrant-libvirt"}
+ INFO create_network_interfaces: Creating network interface eth1 connected to network vagrant-libvirt based on template interface.
+DEBUG create_network_interfaces: Driver options: {:iommu=>"off"}
+DEBUG create_network_interfaces: Attaching Network Device with XML:
+<interface type="network">
+  <alias name="ua-net-1"></alias>
+  <source network="vagrant-libvirt"></source>
+  <target dev="vnet1"></target>
+  <model type="virtio"></model>
+  <driver iommu="off"></driver>
+</interface>
+
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x00007f8c90470a80>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8ca1d4b158>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsRunning:0x00007f8c908a0150>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsRunning:0x00007f8c908a0150>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x00007f8c904471a8>
+ INFO warden: Calling IN action: #<Proc:0x00007f8c901910d0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x00007f8c90446c58>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8c90c5de00>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsSuspended:0x00007f8ca1dcebc0>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsSuspended:0x00007f8ca1dcebc0>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x00007f8c9046d6c8>
+ INFO warden: Calling IN action: #<Proc:0x00007f8c8d0f7fa0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::PrepareNFSValidIds:0x00007f8c9046d268>
+ INFO warden: Calling IN action: #<VagrantPlugins::SyncedFolderNFS::ActionCleanup:0x00007f8c90421368>
+DEBUG host: Searching for cap: nfs_prune
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_prune in linux
+ INFO nfs: NFS pruning. Valid IDs: ["f6d5a335-b08e-4f19-ab61-8001b41646ee"]
+DEBUG host: Searching for cap: nfs_prune
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_prune in linux
+ INFO host: Execute capability: nfs_prune [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>, #<Vagrant::UI::Prefixed:0x00007f8c90da2400 @logger=#<Log4r::Logger:0x00007f8c90da2388 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @opts={}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @prefix=:libvirt_vm, @ui=#<Vagrant::UI::Basic:0x00007f8ca1cf6450 @logger=#<Log4r::Logger:0x00007f8ca1cf6388 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @opts={:color=>:default}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @lock=#<Thread::Mutex:0x00007f8ca1cd2460>>>, ["f6d5a335-b08e-4f19-ab61-8001b41646ee"]] (redhat)
+ INFO linux: Pruning invalid NFS entries...
+DEBUG linux: Known valid NFS export IDs: ["f6d5a335-b08e-4f19-ab61-8001b41646ee"]
+DEBUG linux: Composite valid NFS export IDs with user: ["1000 f6d5a335-b08e-4f19-ab61-8001b41646ee"]
+DEBUG linux: NFS export IDs to be removed: []
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::SyncedFolderCleanup:0x00007f8c90458278>
+DEBUG host: Searching for cap: smb_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+ INFO host: Execute capability: nfs_installed [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>] (redhat)
+ INFO subprocess: Starting process: ["/bin/sh", "-c", "systemctl --no-pager --no-legend --plain list-unit-files --all --type=service | grep nfs-server.service"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+ INFO synced_folder_cleanup: Invoking synced folder cleanup for: nfs
+ INFO nfs: NFS pruning. Valid IDs: ["f6d5a335-b08e-4f19-ab61-8001b41646ee"]
+DEBUG host: Searching for cap: nfs_prune
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_prune in linux
+ INFO host: Execute capability: nfs_prune [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>, #<Vagrant::UI::Prefixed:0x00007f8c90da2400 @logger=#<Log4r::Logger:0x00007f8c90da2388 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @opts={}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @prefix=:libvirt_vm, @ui=#<Vagrant::UI::Basic:0x00007f8ca1cf6450 @logger=#<Log4r::Logger:0x00007f8ca1cf6388 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @opts={:color=>:default}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @lock=#<Thread::Mutex:0x00007f8ca1cd2460>>>, ["f6d5a335-b08e-4f19-ab61-8001b41646ee"]] (redhat)
+ INFO linux: Pruning invalid NFS entries...
+DEBUG linux: Known valid NFS export IDs: ["f6d5a335-b08e-4f19-ab61-8001b41646ee"]
+DEBUG linux: Composite valid NFS export IDs with user: ["1000 f6d5a335-b08e-4f19-ab61-8001b41646ee"]
+DEBUG linux: NFS export IDs to be removed: []
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Delayed:0x00007f8c90408520>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::SyncedFolders:0x00007f8c9040ffa0>
+ INFO synced_folders: SyncedFolders loading from cache: false
+DEBUG host: Searching for cap: smb_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+ INFO host: Execute capability: nfs_installed [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>] (redhat)
+ INFO subprocess: Starting process: ["/bin/sh", "-c", "systemctl --no-pager --no-legend --plain list-unit-files --all --type=service | grep nfs-server.service"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 32000
+DEBUG subprocess: Exit status: 0
+ INFO synced_folders: Synced Folder Implementation: nfs
+ INFO synced_folders:   - /vagrant: . => /vagrant
+ INFO synced_folders: Invoking synced folder prepare for: nfs
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::PrepareNFSSettings:0x00007f8c90199e10>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::ShareFolders:0x00007f8c8d40cc40>
+ INFO interface: info: Creating shared folders metadata...
+ INFO interface: info: ==> libvirt_vm: Creating shared folders metadata...
+==> libvirt_vm: Creating shared folders metadata...
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::SetBootOrder:0x00007f8c8d196c40>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::StartDomain:0x00007f8c8d184b80>
+ INFO start_domain: Using vagrant-libvirt at 192.168.121.0/24 as the management network nat is the mode
+DEBUG start_domain: In config found network type forwarded_port options {:id=>"ssh", :guest=>22, :host=>2112, :protocol=>"tcp"}
+DEBUG start_domain: In config found network type private_network options {:type=>"dhcp", :ip=>"192.168.121.5", :libvirt__domain_name=>"pup.apidb.org", :protocol=>"tcp", :id=>"412a1c81-3090-412b-a668-a3fea93eb4c4"}
+DEBUG start_domain: Adapter not specified so found slot 0
+DEBUG start_domain: Found network by name
+DEBUG start_domain: Adapter not specified so found slot 1
+DEBUG start_domain: Found network by ip
+DEBUG start_domain: Starting Domain with XML:
+<domain type='kvm'>
+  <name>vagrant-puppet_libvirt_vm</name>
+  <uuid>f6d5a335-b08e-4f19-ab61-8001b41646ee</uuid>
+  <description>Source: /home/wdundore/git/uga/vagrant-puppet/Vagrantfile</description>
+  <memory unit='KiB'>8388608</memory>
+  <currentMemory unit='KiB'>8388608</currentMemory>
+  <vcpu placement='static'>4</vcpu>
+  <os>
+    <type arch='x86_64' machine='pc-i440fx-7.2'>hvm</type>
+    <boot dev='hd'/>
+    <bootmenu enable='no'/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <pae/>
+  </features>
+  <cpu mode='host-model' check='partial'/>
+  <clock offset='utc'/>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/vagrant-puppet_libvirt_vm.img'/>
+      <target dev='vda' bus='sata'/>
+      <alias name='ua-box-volume-0'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <controller type='usb' index='0' model='piix3-uhci'>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x01' function='0x2'/>
+    </controller>
+    <controller type='pci' index='0' model='pci-root'/>
+    <controller type='sata' index='0'>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
+    </controller>
+    <interface type='network'>
+      <mac address='52:54:00:32:68:0c'/>
+      <source network='vagrant-libvirt'/>
+      <model type='virtio'/>
+      <driver iommu='off'/>
+      <alias name='ua-net-0'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x0'/>
+    </interface>
+    <interface type='network'>
+      <mac address='52:54:00:5b:03:60'/>
+      <source network='vagrant-libvirt'/>
+      <model type='virtio'/>
+      <driver iommu='off'/>
+      <alias name='ua-net-1'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x06' function='0x0'/>
+    </interface>
+    <serial type='pty'>
+      <target type='isa-serial' port='0'>
+        <model name='isa-serial'/>
+      </target>
+    </serial>
+    <console type='pty'>
+      <target type='serial' port='0'/>
+    </console>
+    <input type='mouse' bus='ps2'/>
+    <input type='keyboard' bus='ps2'/>
+    <graphics type='vnc' port='-1' autoport='yes' websocket='-1' listen='127.0.0.1' keymap='en-us'>
+      <listen type='address' address='127.0.0.1'/>
+    </graphics>
+    <audio id='1' type='none'/>
+    <video>
+      <model type='cirrus' vram='16384' heads='1' primary='yes'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0'/>
+    </video>
+    <memballoon model='virtio'>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x04' function='0x0'/>
+    </memballoon>
+  </devices>
+</domain>
+
+ INFO interface: info: Starting domain.
+ INFO interface: info: ==> libvirt_vm: Starting domain.
+==> libvirt_vm: Starting domain.
+ INFO interface: info: Domain launching with graphics connection settings...
+ INFO interface: info: ==> libvirt_vm: Domain launching with graphics connection settings...
+==> libvirt_vm: Domain launching with graphics connection settings...
+ INFO interface: info:  -- Graphics Port:      5900
+ INFO interface: info: ==> libvirt_vm:  -- Graphics Port:      5900
+==> libvirt_vm:  -- Graphics Port:      5900
+ INFO interface: info:  -- Graphics IP:        127.0.0.1
+ INFO interface: info: ==> libvirt_vm:  -- Graphics IP:        127.0.0.1
+==> libvirt_vm:  -- Graphics IP:        127.0.0.1
+ INFO interface: info:  -- Graphics Password:  Not defined
+ INFO interface: info: ==> libvirt_vm:  -- Graphics Password:  Not defined
+==> libvirt_vm:  -- Graphics Password:  Not defined
+ INFO interface: info:  -- Graphics Websocket: 5700
+ INFO interface: info: ==> libvirt_vm:  -- Graphics Websocket: 5700
+==> libvirt_vm:  -- Graphics Websocket: 5700
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::WaitTillUp:0x00007f8c8d1728e0>
+DEBUG wait_till_up: Searching for IP for MAC address: 52:54:00:32:68:0c
+ INFO interface: info: Waiting for domain to get an IP address...
+ INFO interface: info: ==> libvirt_vm: Waiting for domain to get an IP address...
+==> libvirt_vm: Waiting for domain to get an IP address...
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO driver: Timeout at waiting for an ip address for machine libvirt_vm
+ INFO retryable: Retryable exception raised: #<Fog::Errors::TimeoutError: The specified wait_for timeout (2 seconds) was exceeded>
+ INFO wait_till_up: Got IP address 192.168.121.99
+ INFO wait_till_up: Time for getting IP: 45.75249433517456
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::WaitForCommunicator:0x00007f8c8d160488>
+ INFO interface: output: Waiting for machine to boot. This may take a few minutes...
+ INFO interface: output: ==> libvirt_vm: Waiting for machine to boot. This may take a few minutes...
+==> libvirt_vm: Waiting for machine to boot. This may take a few minutes...
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO interface: detail: SSH address: 192.168.121.99:2112
+ INFO interface: detail:     libvirt_vm: SSH address: 192.168.121.99:2112
+    libvirt_vm: SSH address: 192.168.121.99:2112
+ INFO interface: detail: SSH username: vagrant
+ INFO interface: detail:     libvirt_vm: SSH username: vagrant
+    libvirt_vm: SSH username: vagrant
+ INFO interface: detail: SSH auth method: private key
+ INFO interface: detail:     libvirt_vm: SSH auth method: private key
+    libvirt_vm: SSH auth method: private key
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cc1d458 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cc1d368 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cc1d250 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cc1d4d0>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cc1d200>, @mon_data_owner_object_id=51200>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:29:57.901040 #16837] DEBUG -- net.ssh.transport.session[c814]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::NetSSHException: An error occurred in the underlying SSH library that Vagrant uses.
+The error message is shown below. In many cases, errors from this
+library are caused by ssh-agent issues. Try disabling your SSH
+agent or removing some keys and try again.
+
+If the problem persists, please report a bug to the net-ssh project.
+
+Net::SSH::ConnectionTimeout>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cc6ff78 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cc6ff50 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cc6ff00 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cc6ffc8>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cc6fed8>, @mon_data_owner_object_id=51240>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:12.968511 #16837] DEBUG -- net.ssh.transport.session[c83c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+ INFO interface: detail: Warning: Host unreachable. Retrying...
+ INFO interface: detail:     libvirt_vm: Warning: Host unreachable. Retrying...
+    libvirt_vm: Warning: Host unreachable. Retrying...
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cc474b0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cc47488 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cc47438 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cc47500>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cc47410>, @mon_data_owner_object_id=51280>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:12.991388 #16837] DEBUG -- net.ssh.transport.session[c864]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8ca24eed60 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8ca24ee608 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8ca24ee3b0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8ca24ef198>, @binmode=false, @mon_data=#<Monitor:0x00007f8ca24ecfb0>, @mon_data_owner_object_id=51320>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:13.014074 #16837] DEBUG -- net.ssh.transport.session[c88c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c908df698 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c908df648 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c908df4b8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c908df788>, @binmode=false, @mon_data=#<Monitor:0x00007f8c908df440>, @mon_data_owner_object_id=51360>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:13.039011 #16837] DEBUG -- net.ssh.transport.session[c8b4]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c9083fa08 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c9083f918 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c9083f878 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c9083fb70>, @binmode=false, @mon_data=#<Monitor:0x00007f8c9083f850>, @mon_data_owner_object_id=51400>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:13.062617 #16837] DEBUG -- net.ssh.transport.session[c8dc]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c90192d68 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c90192d18 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c90192cc8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c90192e30>, @binmode=false, @mon_data=#<Monitor:0x00007f8c90192ca0>, @mon_data_owner_object_id=51440>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:13.085704 #16837] DEBUG -- net.ssh.transport.session[c904]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d194a80 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d194a58 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d194a08 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d194ad0>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d1949e0>, @mon_data_owner_object_id=51480>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:13.108968 #16837] DEBUG -- net.ssh.transport.session[c92c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d0f34c8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d0f34a0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d0f3450 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d0f3518>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d0f3428>, @mon_data_owner_object_id=51520>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:14.221449 #16837] DEBUG -- net.ssh.transport.session[c954]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d082070 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d082048 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d081ff8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d0820c0>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d081fd0>, @mon_data_owner_object_id=51560>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:15.307991 #16837] DEBUG -- net.ssh.transport.session[c97c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cdcb4a8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cdcb480 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cdcb430 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cdcb4f8>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cdcb408>, @mon_data_owner_object_id=51600>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:16.398087 #16837] DEBUG -- net.ssh.transport.session[c9a4]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cd5dfc0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cd5df98 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cd5df48 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cd5e010>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cd5def8>, @mon_data_owner_object_id=51640>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:17.495576 #16837] DEBUG -- net.ssh.transport.session[c9cc]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cc81228 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cc81200 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cc811b0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cc81278>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cc81188>, @mon_data_owner_object_id=51680>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:18.559175 #16837] DEBUG -- net.ssh.transport.session[c9f4]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cd185d8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cd18560 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cd18498 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cd18628>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cd183d0>, @mon_data_owner_object_id=51720>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:19.642892 #16837] DEBUG -- net.ssh.transport.session[ca1c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c9080bc80 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c9080bc58 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c9080bbe0 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c9080bd20>, @binmode=false, @mon_data=#<Monitor:0x00007f8c9080bbb8>, @mon_data_owner_object_id=51760>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:20.742926 #16837] DEBUG -- net.ssh.transport.session[ca44]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d1313e0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d1313b8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d131368 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d131430>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d131340>, @mon_data_owner_object_id=51800>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:21.867890 #16837] DEBUG -- net.ssh.transport.session[ca6c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d08e0f0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d08e0c8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d08e078 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d08e140>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d08e050>, @mon_data_owner_object_id=51840>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:22.908499 #16837] DEBUG -- net.ssh.transport.session[ca94]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+ INFO interface: detail: Warning: Host unreachable. Retrying...
+ INFO interface: detail:     libvirt_vm: Warning: Host unreachable. Retrying...
+    libvirt_vm: Warning: Host unreachable. Retrying...
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cddb1f0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cddb1c8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cddb178 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cddb240>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cddb150>, @mon_data_owner_object_id=51880>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:23.992097 #16837] DEBUG -- net.ssh.transport.session[cabc]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cd74220 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cd741f8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cd741a8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cd74298>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cd74180>, @mon_data_owner_object_id=51920>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:24.013148 #16837] DEBUG -- net.ssh.transport.session[cae4]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8ccfe9f8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8ccfe9d0 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8ccfe980 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8ccfea48>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8ccfe958>, @mon_data_owner_object_id=51960>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:25.137529 #16837] DEBUG -- net.ssh.transport.session[cb0c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8cc1ce40 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8cc1ce18 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8cc1cd78 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8cc1ce90>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8cc1cd50>, @mon_data_owner_object_id=52000>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:26.223875 #16837] DEBUG -- net.ssh.transport.session[cb34]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c9083aa08 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c9083a990 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c9083a8c8 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c9083aa80>, @binmode=false, @mon_data=#<Monitor:0x00007f8c9083a8a0>, @mon_data_owner_object_id=52040>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:27.319809 #16837] DEBUG -- net.ssh.transport.session[cb5c]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c90815e10 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c90815d98 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c90815b68 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c908160e0>, @binmode=false, @mon_data=#<Monitor:0x00007f8c90815aa0>, @mon_data_owner_object_id=52080>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:28.419521 #16837] DEBUG -- net.ssh.transport.session[cb84]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d16faf0 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d16fac8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d16fa78 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d16fb40>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d16fa50>, @mon_data_owner_object_id=52120>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+ INFO interface: warn: Waiting for cleanup before exiting...
+ INFO interface: warn: ==> libvirt_vm: Waiting for cleanup before exiting...
+==> libvirt_vm: Waiting for cleanup before exiting...
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:29.516933 #16837] DEBUG -- net.ssh.transport.session[cbac]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO ssh: SSH not ready: #<Vagrant::Errors::SSHNoRoute: While attempting to connect with SSH, a "no route to host" (EHOSTUNREACH)
+error was received. Please verify your network settings are correct
+and try again.>
+DEBUG ssh: Checking key permissions: /home/wdundore/.vagrant.d/insecure_private_key
+ INFO ssh: Attempting SSH connection...
+ INFO ssh: Attempting to connect to SSH...
+ INFO ssh:   - Host: 192.168.121.99
+ INFO ssh:   - Port: 2112
+ INFO ssh:   - Username: vagrant
+ INFO ssh:   - Password? false
+ INFO ssh:   - Key Path: ["/home/wdundore/.vagrant.d/insecure_private_key"]
+DEBUG ssh:   - connect_opts: {:auth_methods=>["none", "hostbased", "publickey"], :config=>false, :forward_agent=>false, :send_env=>false, :keys_only=>true, :verify_host_key=>:never, :password=>nil, :port=>2112, :timeout=>15, :user_known_hosts_file=>[], :verbose=>:debug, :logger=>#<Logger:0x00007f8c8d0fbdf8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x00007f8c8d0fbda8 @datetime_format=nil>, @formatter=nil, @logdev=#<Logger::LogDevice:0x00007f8c8d0fbd08 @shift_period_suffix=nil, @shift_size=nil, @shift_age=nil, @filename=nil, @dev=#<StringIO:0x00007f8c8d0fbe98>, @binmode=false, @mon_data=#<Monitor:0x00007f8c8d0fbcb8>, @mon_data_owner_object_id=52160>>, :keys=>["/home/wdundore/.vagrant.d/insecure_private_key"], :remote_user=>"vagrant", :keepalive=>true, :keepalive_interval=>5}
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Calling recover: #<Vagrant::Action::Builtin::Call:0x00007f8c90446c58>
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Calling recover: #<Vagrant::Action::Builtin::Call:0x00007f8c90470a80>
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Calling recover: #<VagrantPlugins::ProviderLibvirt::Action::CleanupOnFailure:0x00007f8c90c494c8>
+DEBUG ssh: == Net-SSH connection debug-level log START ==
+DEBUG ssh: D, [2023-07-26T21:30:30.603203 #16837] DEBUG -- net.ssh.transport.session[cbd4]: establishing connection to 192.168.121.99:2112
+
+DEBUG ssh: == Net-SSH connection debug-level log END ==
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8c8d0b8558>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ConfigValidate:0x00007f8c8d0445b8>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x00007f8c8d044568>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8c8cde3aa8>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x00007f8c8cdc7f60>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::IsCreated:0x00007f8c8cdc7f60>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x00007f8c8ccc87e0>
+ INFO warden: Calling IN action: #<Proc:0x00007f8c8cc69ee8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::Call:0x00007f8c8ccc8628>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Builder:0x00007f8c8cc61220>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::DestroyConfirm:0x00007f8ca1dd7158>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::DestroyConfirm:0x00007f8ca1dd7158>
+ INFO runner: Running action: machine_action_up #<Vagrant::Action::Warden:0x00007f8c8d12ba80>
+ INFO warden: Calling IN action: #<Proc:0x00007f8c8d043e88 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<Vagrant::Action::Builtin::ProvisionerCleanup:0x00007f8c8d12b8f0>
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::ClearForwardedPorts:0x00007f8c8d106078>
+ INFO clear_forward_ports: No ssh pids found
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::PruneNFSExports:0x00007f8c8d1223e0>
+DEBUG host: Searching for cap: smb_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+DEBUG host: Searching for cap: nfs_installed
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_installed in linux
+ INFO host: Execute capability: nfs_installed [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>] (redhat)
+ INFO subprocess: Starting process: ["/bin/sh", "-c", "systemctl --no-pager --no-legend --plain list-unit-files --all --type=service | grep nfs-server.service"]
+ INFO subprocess: Command not in installer, restoring original environment...
+DEBUG subprocess: Selecting on IO
+DEBUG subprocess: Waiting for process to exit. Remaining to timeout: 31999
+DEBUG subprocess: Exit status: 0
+ INFO prune_nfs_exports: Using NFS, prunning NFS settings from host
+DEBUG host: Searching for cap: nfs_prune
+DEBUG host: Checking in: redhat
+DEBUG host: Checking in: linux
+DEBUG host: Found cap: nfs_prune in linux
+ INFO host: Execute capability: nfs_prune [#<Vagrant::Environment: /home/wdundore/git/uga/vagrant-puppet>, #<Vagrant::UI::Prefixed:0x00007f8c90da2400 @logger=#<Log4r::Logger:0x00007f8c90da2388 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @opts={}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @prefix=:libvirt_vm, @ui=#<Vagrant::UI::Basic:0x00007f8ca1cf6450 @logger=#<Log4r::Logger:0x00007f8ca1cf6388 @fullname="vagrant::ui::interface", @outputters=[], @additive=true, @name="interface", @path="vagrant::ui", @parent=#<VagrantLogger:0x00007f8ca20dc7b8 @fullname="vagrant", @outputters=[#<Log4r::StderrOutputter:0x00007f8ca20f62a8 @name="stderr", @level=0, @formatter=#<Vagrant::Util::LoggingFormatter:0x00007f8ca246f808 @formatter=#<Log4r::BasicFormatter:0x00007f8ca242d160 @depth=7>>, @out=#<IO:<STDERR>>>], @additive=true, @name="vagrant", @path="", @parent=#<Log4r::RootLogger:0x00007f8ca20dc1a0 @level=0, @outputters=[]>, @level=2, @trace=false>, @level=2, @trace=false>, @opts={:color=>:default}, @stdin=#<IO:<STDIN>>, @stdout=#<IO:<STDOUT>>, @stderr=#<IO:<STDERR>>, @lock=#<Thread::Mutex:0x00007f8ca1cd2460>>>, []] (redhat)
+ INFO linux: Pruning invalid NFS entries...
+DEBUG linux: Known valid NFS export IDs: []
+DEBUG linux: Composite valid NFS export IDs with user: []
+DEBUG linux: NFS export IDs to be removed: []
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::DestroyDomain:0x00007f8c8d0f9a80>
+ INFO interface: info: Removing domain...
+ INFO interface: info: ==> libvirt_vm: Removing domain...
+==> libvirt_vm: Removing domain...
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::DestroyNetworks:0x00007f8c8d0dc7c8>
+ INFO destroy_networks: Checking if any networks were created
+ INFO destroy_networks: File with created networks exists
+ INFO destroy_networks: Checking for e7b41977-d62c-4b04-ae9d-690adf34b3c3
+
+ INFO destroy_networks: Undefined it
+ INFO destroy_networks: Checking for e7b41977-d62c-4b04-ae9d-690adf34b3c3
+
+ INFO destroy_networks: It is already undefined
+ INFO destroy_networks: Deleting created_networks file
+ INFO machine: New machine ID: nil
+ INFO warden: Calling IN action: #<VagrantPlugins::ProviderLibvirt::Action::CleanMachineFolder:0x00007f8c8d0c7e90>
+ INFO interface: info: Deleting the machine folder
+ INFO interface: info: ==> libvirt_vm: Deleting the machine folder
+==> libvirt_vm: Deleting the machine folder
+DEBUG create_domain: Recursively removing: /home/wdundore/git/uga/vagrant-puppet/.vagrant/machines/libvirt_vm/libvirt
+ INFO warden: Calling IN action: #<Proc:0x00007f8c8d0ab9c0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<Proc:0x00007f8c8ccc8588 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling IN action: #<VagrantPlugins::CommandUp::StoreBoxMetadata:0x00007f8c8d044518>
+DEBUG storeboxmetadata: Writing box metadata file to /home/wdundore/git/uga/vagrant-puppet/.vagrant/machines/libvirt_vm/libvirt/box_meta
+ INFO warden: Calling OUT action: #<VagrantPlugins::CommandUp::StoreBoxMetadata:0x00007f8c8d044518>
+ INFO warden: Calling OUT action: #<Proc:0x00007f8c8ccc8588 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling OUT action: #<Proc:0x00007f8c8d0ab9c0 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::CleanMachineFolder:0x00007f8c8d0c7e90>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::DestroyNetworks:0x00007f8c8d0dc7c8>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::DestroyDomain:0x00007f8c8d0f9a80>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::PruneNFSExports:0x00007f8c8d1223e0>
+ INFO warden: Calling OUT action: #<VagrantPlugins::ProviderLibvirt::Action::ClearForwardedPorts:0x00007f8c8d106078>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::ProvisionerCleanup:0x00007f8c8d12b8f0>
+ INFO warden: Calling OUT action: #<Proc:0x00007f8c8d043e88 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::Call:0x00007f8c8ccc8628>
+ INFO warden: Calling OUT action: #<Proc:0x00007f8c8cc69ee8 /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:126 (lambda)>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::Call:0x00007f8c8d044568>
+ INFO warden: Calling OUT action: #<Vagrant::Action::Builtin::ConfigValidate:0x00007f8c8d0445b8>
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ERROR warden: Error occurred: Vagrant exited after cleanup due to external interrupt.
+ INFO warden: Beginning recovery process...
+ INFO warden: Calling recover: #<Vagrant::Action::Builtin::Call:0x00007f8ca24c28c8>
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO warden: Beginning recovery process...
+ INFO warden: Recovery complete.
+ INFO environment: Released process lock: machine-action-77771362ce2bfa769f913f3cfaa8540a
+ INFO environment: Running hook: environment_unload
+ INFO runner: Running action: environment_unload #<Vagrant::Action::Builder:0x00007f8c8ccd8690>
+ERROR vagrant: Vagrant experienced an error! Details:
+ERROR vagrant: #<Vagrant::Errors::VagrantInterrupt: Vagrant exited after cleanup due to external interrupt.>
+ERROR vagrant: Vagrant exited after cleanup due to external interrupt.
+ERROR vagrant: /opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:49:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/wait_till_up.rb:51:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/start_domain.rb:630:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/set_boot_order.rb:22:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/share_folders.rb:22:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/prepare_nfs_settings.rb:21:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/synced_folders.rb:87:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/delayed.rb:19:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/synced_folder_cleanup.rb:28:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/plugins/synced_folders/nfs/action_cleanup.rb:25:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/prepare_nfs_valid_ids.rb:14:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:127:in `block in finalize_action'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builder.rb:180:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `block in run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/util/busy.rb:19:in `busy'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/call.rb:53:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:127:in `block in finalize_action'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builder.rb:180:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `block in run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/util/busy.rb:19:in `busy'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/call.rb:53:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/create_network_interfaces.rb:169:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/create_networks.rb:98:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/create_domain.rb:466:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/resolve_disk_settings.rb:143:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/create_domain_volume.rb:98:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/handle_box_image.rb:129:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/handle_box.rb:56:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/handle_storage_pool.rb:63:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/set_name_of_domain.rb:34:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/provision.rb:80:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/home/wdundore/.vagrant.d/gems/3.1.4/gems/vagrant-libvirt-0.12.2/lib/vagrant-libvirt/action/cleanup_on_failure.rb:21:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:127:in `block in finalize_action'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builder.rb:180:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `block in run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/util/busy.rb:19:in `busy'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/call.rb:53:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/box_check_outdated.rb:93:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builtin/config_validate.rb:25:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/warden.rb:48:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/builder.rb:180:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `block in run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/util/busy.rb:19:in `busy'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/action/runner.rb:101:in `run'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/machine.rb:248:in `action_raw'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/machine.rb:217:in `block in action'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/environment.rb:631:in `lock'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/machine.rb:203:in `call'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/machine.rb:203:in `action'
+/opt/vagrant/embedded/gems/gems/vagrant-2.3.7/lib/vagrant/batch_action.rb:86:in `block (2 levels) in run'
+ INFO interface: error: Vagrant exited after cleanup due to external interrupt.
+Vagrant exited after cleanup due to external interrupt.
+ INFO interface: Machine: error-exit ["Vagrant::Errors::VagrantInterrupt", "Vagrant exited after cleanup due to external interrupt."]
