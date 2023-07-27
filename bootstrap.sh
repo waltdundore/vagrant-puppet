@@ -10,26 +10,53 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-
+echo
+echo
+echo
+echo
 echo "**************Connect the vpn****************"
-
+echo
+echo
+echo
+echo
 
 #fix ssh auth
-[ grep -q 'Defaults    env_keep+=SSH_AUTH_SOCK' /etc/sudoers ] && \
-echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers && \
-systemctl restart sshd
+if grep -wq "env_keep+=SSH_AUTH_SOCK" /etc/sudoers;
+then
+  echo "No changes made, /etc/sudoers already updated" 
+else    
+  echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers && \
+  systemctl restart sshd
+fi
 
+
+if [ -d "/root/.ssh" ]  
+then 
+  echo "No changes made, /root/.ssh already exists"
+else 
+  mkdir -p /root/.ssh/
+fi
 
 #set up ssh config
-[ grep -q 'Host *.apidb.org' /root/.ssh/config ] && \
-mkdir -p /root/.ssh/ && \
-cat << 'EOF' >> /root/.ssh/config
-Host *.apidb.org
+if grep -wq "*.apidb.org" /root/.ssh/config;
+then
+  echo "No changes made /root/.ssh/config alreayd modified"
+else
+  echo "<<<=====Ignore this error, we are fixing this now."
+  cat << 'EOF' >> /root/.ssh/config
+  Host *.apidb.org
     Port 2112
 EOF
+fi
 
-ssh-keyscan -p 2112 git.apidb.org > /root/.ssh/known_hosts
-chmod 0600 /root/.ssh/*
+if grep -wq "git.apidb.org" /root/.ssh/known_hosts;
+then
+  echo "No changes to known_hosts"
+else
+  echo "Updating known_hosts file"
+  ssh-keyscan -p 2112 git.apidb.org > /root/.ssh/known_hosts
+  chmod 0600 /root/.ssh/*
+fi
 
 
 
