@@ -15,13 +15,13 @@ echo "**************Connect the vpn****************"
 
 
 #fix ssh auth
-[ grep -q 'Defaults    env_keep+=SSH_AUTH_SOCK' /etc/sudoers && \
+[ grep -q 'Defaults    env_keep+=SSH_AUTH_SOCK' /etc/sudoers ] && \
 echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers && \
 systemctl restart sshd
 
 
 #set up ssh config
-[ grep -q 'Host *.apidb.org' /root/.ssh/config] && \
+[ grep -q 'Host *.apidb.org' /root/.ssh/config ] && \
 mkdir -p /root/.ssh/ && \
 cat << 'EOF' >> /root/.ssh/config
 Host *.apidb.org
