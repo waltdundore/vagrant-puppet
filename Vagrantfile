@@ -16,14 +16,14 @@ Vagrant.configure(2) do |config|
   config.vm.hostname = "pup.apidb.org"
   config.ssh.forward_agent = true
   
-  #temporarily stop the virtualbox guest updating every time for speed
-  if Vagrant.has_plugin?("vagrant-vbguest")
-    config.vbguest.auto_update = false
-  end
+  #uncomment below to temporarily stop the virtualbox guest updating every time for speed
+  #if Vagrant.has_plugin?("vagrant-vbguest")
+  #  config.vbguest.auto_update = false
+  #end
 
-  #modify the default port to match our servers
-  config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 2112
-  config.ssh.port = 2112
+  #modify the default port 
+  config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 2222
+  config.ssh.port = 2222
 
 
  
