@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$HOSTNAME" -ne 'pup.apidb.org' ]; then
+if [ "$HOSTNAME" != "pup.apidb.org" ]; then
     printf '%s\n' "NO! Do not run this on the host. It is only to run in the vagrant guest."
     exit 1
 fi
@@ -15,26 +15,18 @@ echo "**************Connect the vpn****************"
 
 
 #fix ssh auth
-if [[ if echo /etc/sudoers | grep -q "Defaults    env_keep+=SSH_AUTH_SOCK" ]] 
-then
-  echo "ssh auth already modified, skipping" 1>&2
-else
-  echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers
-  systemctl restart sshd
-fi
+[ grep -q 'Defaults    env_keep+=SSH_AUTH_SOCK' /etc/sudoers && \
+echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers && \
+systemctl restart sshd
+
 
 #set up ssh config
-if [[ if echo /root/.ssh/config | grep -q "Host *.apidb.org" ]] 
-then
-  echo "ssh config already modified, skipping" 1>&2
-else
+[ grep -q 'Host *.apidb.org' /root/.ssh/config] && \
 mkdir -p /root/.ssh/ && \
 cat << 'EOF' >> /root/.ssh/config
 Host *.apidb.org
     Port 2112
 EOF
-fi
-
 
 ssh-keyscan -p 2112 git.apidb.org > /root/.ssh/known_hosts
 chmod 0600 /root/.ssh/*
