@@ -1,4 +1,14 @@
-ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'libvirt'
+
+REQUIRED_PLUGINS = %w(vagrant-libvirt)
+exit unless REQUIRED_PLUGINS.all? do |plugin|
+  Vagrant.has_plugin?(plugin) || (
+    puts "The #{plugin} plugin is required. Please install it with:"
+    puts "$ vagrant plugin install #{plugin}"
+    false
+  )
+end
+
 Vagrant.configure(2) do |config|
 
   #config.vm.box_url = 'http://software.apidb.org/vagrant/centos-7-64-puppet.json'
@@ -8,22 +18,25 @@ Vagrant.configure(2) do |config|
   #vanilla centos image - requires the bootstrap.sh script to install puppet
   config.vm.box = "generic/centos7"
 
-  config.vm.provider "virtualbox" do |v|
-    v.memory = 8192
-    v.cpus = 4
+  config.vm.provider "libvirt" do |libvirt|
+    libvirt.memory = 8192
+    libvirt.cpus = 4
   end
+
+  # Define private network
+  config.vm.define :test_vm1 do |test_vm1|
+    test_vm1.vm.network :private_network,
+      :ip => "19.168.121.50",
+      :libvirt__domain_name => "apidb.org"
+  end
+
+  config.ssh.forward_agent = true
 
   config.vm.hostname = "pup.apidb.org"
-  config.ssh.forward_agent = true
-  
-  #temporarily stop the virtualbox guest updating every time for speed
-  if Vagrant.has_plugin?("vagrant-vbguest")
-    config.vbguest.auto_update = false
-  end
 
-  #modify the default port to match our servers
-  config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 2112
-  config.ssh.port = 2112
+  #modify the default port
+  #config.vm.network "forwarded_port", id: "ssh", guest: 22, host: 2112
+  #config.ssh.port = 2112
 
 
  
@@ -35,8 +48,10 @@ Vagrant.configure(2) do |config|
   #config.vm.provision "shell", path: "dbdl.sh"
 
   # Setup puppet structure
-  config.vm.synced_folder "scratch/code/", "/etc/puppetlabs/code/", owner: "root", group: "root"
-  config.vm.synced_folder "r10k/", "/etc/puppetlabs/r10k/", owner: "root", group: "root"
-  config.vm.synced_folder ".", "/vagrant/", owner: "root", group: "root"
+  config.vm.synced_folder "scratch/code/", "/etc/puppetlabs/code/", type: "rsync",
+  rsync__exclude: ".git/"
+  config.vm.synced_folder "r10k/", "/etc/puppetlabs/r10k/", type: "rsync",
+  rsync__exclude: ".git/"
+  config.vm.synced_folder ".", "/vagrant/", owner: "root", type: "rsync"
 
 end
