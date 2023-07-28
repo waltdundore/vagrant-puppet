@@ -31,12 +31,12 @@ else
 mkdir -p /root/.ssh/ && \
 cat << 'EOF' >> /root/.ssh/config
 Host *.apidb.org
-    Port 2112
+    Port $SSH_PORT
 EOF
 fi
 
 
-ssh-keyscan -p 2112 git.apidb.org > /root/.ssh/known_hosts
+ssh-keyscan -p $SSH_PORT git.apidb.org > /root/.ssh/known_hosts
 chmod 0600 /root/.ssh/*
 
 
