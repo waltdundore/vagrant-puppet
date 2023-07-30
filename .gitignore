@@ -2,3 +2,7 @@
 .vagrant
 .vscode
 *.log
+gitconfig.sh
+ssh.sh
+vpn.sh
+scratch/repos/

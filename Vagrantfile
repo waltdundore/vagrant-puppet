@@ -46,6 +46,12 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "r10k.sh"
   # cp oracle.tgz from scratch to /u01. Will be downloaded if not there
   #config.vm.provision "shell", path: "dbdl.sh"
+  
+  #Configure git (optional)
+  #yum -y install git
+  #git config --global user.name "Walt Dundore"
+  #git config --global user.email walter.dundore@uga.edu
+  config.vm.provision "shell", path: "gitconfig.sh"
 
   # Setup puppet structure
   config.vm.synced_folder "scratch/code/", "/etc/puppetlabs/code/", type: "rsync",

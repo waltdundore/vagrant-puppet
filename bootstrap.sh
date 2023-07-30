@@ -61,7 +61,7 @@ fi
 
 
 cd ~
-yum -y install https://yum.puppetlabs.com/eol-releases/puppet5-release-el-7.noarch.rpm
+yum -y install /vagrant/scratch/repos/puppet5-release-el-7.noarch.rpm
 yum -y install puppet-agent
 export PATH=/opt/puppetlabs/bin:$PATH
 #/opt/puppetlabs/bin/puppet resource service puppet ensure=running enable=true
