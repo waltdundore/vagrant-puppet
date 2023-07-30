@@ -10,6 +10,11 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
+if [ ! -f .env ]
+then
+  export $(cat .env | xargs)
+fi
+
 echo
 echo
 echo
@@ -45,7 +50,7 @@ else
   echo "<<<=====Ignore this error, we are fixing this now."
   cat << 'EOF' >> /root/.ssh/config
   Host *.apidb.org
-    Port 2112
+    Port $SSH_PORT
 EOF
 fi
 
@@ -54,7 +59,7 @@ then
   echo "No changes to known_hosts"
 else
   echo "Updating known_hosts file"
-  ssh-keyscan -p 2112 git.apidb.org > /root/.ssh/known_hosts
+  ssh-keyscan -p $SSH_PORT git.apidb.org > /root/.ssh/known_hosts
   chmod 0600 /root/.ssh/*
 fi
 
