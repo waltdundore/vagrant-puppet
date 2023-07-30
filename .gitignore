@@ -2,11 +2,9 @@
 .vagrant
 .vscode
 *.log
-<<<<<<< HEAD
 gitconfig.sh
 ssh.sh
+sshkill.sh
 vpn.sh
 scratch/repos/
-=======
 .env
->>>>>>> 74135572a13f2a689f51d86d5c37f4019f19b751
