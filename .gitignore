@@ -2,3 +2,7 @@
 .vagrant
 .vscode
 .env
+vpn.sh
+ssh.sh
+sshkill.sh
+scratch/
