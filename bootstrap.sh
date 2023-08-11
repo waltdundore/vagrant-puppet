@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ "$HOSTNAME" -ne 'pup.apidb.org' ]; then
-    printf '%s\n' "NO! Do not run this on the host. It is only to run in the vagrant guest."
-    exit 1
-fi
-
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root" 1>&2
    exit 1
@@ -15,40 +10,63 @@ then
   export $(cat .env | xargs)
 fi
 
-echo "**************Connect the vpn****************"
-
+dnf -y install puppet
 
 #fix ssh auth
-if [[ if echo /etc/sudoers | grep -q "Defaults    env_keep+=SSH_AUTH_SOCK" ]] 
+if grep -wq "env_keep+=SSH_AUTH_SOCK" /etc/sudoers;
 then
-  echo "ssh auth already modified, skipping" 1>&2
-else
-  echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers
+  echo "No changes made, /etc/sudoers already updated" 
+else    
+  echo "Defaults    env_keep+=SSH_AUTH_SOCK" >> /etc/sudoers && \
   systemctl restart sshd
 fi
 
-#set up ssh config
-if [[ if echo /root/.ssh/config | grep -q "Host *.apidb.org" ]] 
-then
-  echo "ssh config already modified, skipping" 1>&2
-else
-mkdir -p /root/.ssh/ && \
-cat << 'EOF' >> /root/.ssh/config
-Host *.apidb.org
-    Port $SSH_PORT
-EOF
+
+if [ -d "/root/.ssh" ]  
+then 
+  echo "No changes made, /root/.ssh already exists"
+else 
+  mkdir -p /root/.ssh/
 fi
 
-
-ssh-keyscan -p $SSH_PORT git.apidb.org > /root/.ssh/known_hosts
 chmod 0600 /root/.ssh/*
+ 
+#dnf -y install ruby
+
+cat << EOF >> /etc/sudoers.d/vagrant-syncedfolders
+Cmnd_Alias VAGRANT_EXPORTS_CHOWN = /bin/chown 0\:0 /tmp/vagrant-exports
+Cmnd_Alias VAGRANT_EXPORTS_MV = /bin/mv -f /tmp/vagrant-exports /etc/exports
+Cmnd_Alias VAGRANT_NFSD_CHECK = /usr/bin/systemctl status --no-pager nfs-server.service
+Cmnd_Alias VAGRANT_NFSD_START = /usr/bin/systemctl start nfs-server.service
+Cmnd_Alias VAGRANT_NFSD_APPLY = /usr/sbin/exportfs -ar
+%vagrant ALL=(root) NOPASSWD: VAGRANT_EXPORTS_CHOWN, VAGRANT_EXPORTS_MV, VAGRANT_NFSD_CHECK, VAGRANT_NFSD_START, VAGRANT_NFSD_APPL
+EOF
+
+/bin/puppet module install puppetlabs-stdlib
+/bin/puppet module install puppet-selinux
+/bin/puppet module install saz-sudo
+/bin/puppet module install puppetlabs-docker
+/bin/puppet module install puppet-epel
+
+curl -o ~/site.pp https://raw.githubusercontent.com/waltdundore/puppet-control/production/manifests/site.pp
+/bin/puppet apply ~/site.pp
+rm -f ~/site.pp
 
 
-
-cd ~
-yum -y install https://yum.puppetlabs.com/eol-releases/puppet5-release-el-7.noarch.rpm
-yum -y install puppet-agent
-export PATH=/opt/puppetlabs/bin:$PATH
-#/opt/puppetlabs/bin/puppet resource service puppet ensure=running enable=true
+###################
+# Vagrant Install #
+###################
+usermod --append --groups libvirt $USER
 
 
+sudo dnf -y install snapd wget
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+sudo snap find slack
+sudo snap install slack --classic
+
+
+cd /root/
+wget https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US
+tar xvjf firefox-latest.tar.bz2 -C /usr/local 
+ln -s /usr/local/firefox/firefox /usr/bin/firefox 
