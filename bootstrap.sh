@@ -66,7 +66,4 @@ sudo snap find slack
 sudo snap install slack --classic
 
 
-cd /root/
-wget https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US
-tar xvjf firefox-latest.tar.bz2 -C /usr/local 
-ln -s /usr/local/firefox/firefox /usr/bin/firefox 
+
