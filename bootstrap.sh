@@ -59,16 +59,16 @@ rm -f ~/site.pp
 usermod --append --groups libvirt $USER
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.strawberrymusicplayer.strawberry
-flatpak install flathub com.slack.Slack
-flatpak install flathub com.vscodium.codium
-flatpak install flathub org.mozilla.firefox
-flatpak install flathub org.bleachbit.BleachBit
-flatpak install flathub org.videolan.VLC
-flatpak install flathub org.chromium.Chromium
-flatpak install flathub com.bitwarden.desktop
-flatpak install flathub com.transmissionbt.Transmission
-flatpak install flathub org.kde.kdiff3
+flatpak -y install flathub org.strawberrymusicplayer.strawberry
+flatpak -y install flathub com.slack.Slack
+flatpak -y install flathub com.vscodium.codium
+flatpak -y install flathub org.mozilla.firefox
+flatpak -y install flathub org.bleachbit.BleachBit
+flatpak -y install flathub org.videolan.VLC
+flatpak -y install flathub org.chromium.Chromium
+flatpak -y install flathub com.bitwarden.desktop
+flatpak -y install flathub com.transmissionbt.Transmission
+flatpak -y install flathub org.kde.kdiff3
 
 
 
