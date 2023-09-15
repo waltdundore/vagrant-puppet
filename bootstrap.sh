@@ -42,11 +42,11 @@ Cmnd_Alias VAGRANT_NFSD_APPLY = /usr/sbin/exportfs -ar
 %vagrant ALL=(root) NOPASSWD: VAGRANT_EXPORTS_CHOWN, VAGRANT_EXPORTS_MV, VAGRANT_NFSD_CHECK, VAGRANT_NFSD_START, VAGRANT_NFSD_APPL
 EOF
 
-/bin/puppet module install puppetlabs-stdlib
-/bin/puppet module install puppet-selinux
-/bin/puppet module install saz-sudo
-/bin/puppet module install puppetlabs-docker
-/bin/puppet module install puppet-epel
+/bin/puppet module install puppetlabs-stdlib --version 9.3.0
+/bin/puppet module install puppet-selinux --version 4.0.0
+/bin/puppet module install saz-sudo --version 8.0.0
+/bin/puppet module install puppetlabs-docker --version 9.1.0
+/bin/puppet module install puppet-epel --version 5.0.0
 
 curl -o ~/site.pp https://raw.githubusercontent.com/waltdundore/puppet-control/production/manifests/site.pp
 /bin/puppet apply ~/site.pp
@@ -58,12 +58,21 @@ rm -f ~/site.pp
 ###################
 usermod --append --groups libvirt $USER
 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.strawberrymusicplayer.strawberry
+flatpak install flathub com.slack.Slack
+flatpak install flathub com.vscodium.codium
+flatpak install flathub org.mozilla.firefox
+flatpak install flathub org.bleachbit.BleachBit
+flatpak install flathub org.videolan.VLC
+flatpak install flathub org.chromium.Chromium
+flatpak install flathub com.bitwarden.desktop
+flatpak install flathub com.transmissionbt.Transmission
+flatpak install flathub org.kde.kdiff3
 
-sudo dnf -y install snapd wget
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap find slack
-sudo snap install slack --classic
 
 
-
+#cd /root/
+#wget https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US
+#tar xvjf firefox-latest.tar.bz2 -C /usr/local 
+#ln -s /usr/local/firefox/firefox /usr/bin/firefox 
